@@ -1,0 +1,102 @@
+PARAMETER SENSITIVITIES: CASE /home/vijay/Desktop/pest/soilpoolsonly/tem_soilpools
+
+
+ OPTIMISATION ITERATION NO.  1 ----->
+ Parameter name    Group          Current value    Sensitivity
+   mnup            mnup             2.40006          23.2864    
+   kdcmoss         kdcmoss         5.941700E-03      2106.84    
+   kdcrawc         kdcrawc         6.133010E-02      37535.7    
+   kdcsoma         kdcsoma         1.011970E-02      17.0524    
+   kdcsompr        kdcsompr        2.434500E-03      83.2987    
+   kdcsomcr        kdcsomcr        1.000000E-05      28200.3    
+   imossc          imossc           400.000          12311.9    
+   ishlwc          ishlwc           1000.00          36172.1    
+   ideepc          ideepc           3528.03         2.032101E+07
+   iminec          iminec           28541.3          31443.7    
+   isoln           isoln            2348.16          36561.5    
+   iavln           iavln            2.33500          0.00000    
+
+
+ OPTIMISATION ITERATION NO.  2 ----->
+ Parameter name    Group          Current value    Sensitivity
+   mnup            mnup             2.39980          505.380    
+   kdcmoss         kdcmoss         5.958020E-03      6517.44    
+   kdcrawc         kdcrawc         6.067782E-02      1982.46    
+   kdcsoma         kdcsoma         1.011921E-02      14.8015    
+   kdcsompr        kdcsompr        2.435843E-03      547.253    
+   kdcsomcr        kdcsomcr        9.449680E-06      35.7216    
+   imossc          imossc           409.289         5.057219E+06
+   ishlwc          ishlwc           1044.35          17394.0    
+   ideepc          ideepc           3563.66          71738.3    
+   iminec          iminec           22431.2          10323.5    
+   isoln           isoln            2310.68          1351.87    
+   iavln           iavln            2.33500          0.00000    
+
+
+ OPTIMISATION ITERATION NO.  3 ----->
+ Parameter name    Group          Current value    Sensitivity
+   mnup            mnup             2.40158          4.93870    
+   kdcmoss         kdcmoss         6.039506E-03      4792.85    
+   kdcrawc         kdcrawc         6.053356E-02      4716.50    
+   kdcsoma         kdcsoma         1.011987E-02      849.000    
+   kdcsompr        kdcsompr        2.438916E-03      5081.00    
+   kdcsomcr        kdcsomcr        9.449230E-06      2.60270    
+   imossc          imossc           398.160         5.026552E+06
+   ishlwc          ishlwc           1050.87          123012.    
+   ideepc          ideepc           3303.07          612184.    
+   iminec          iminec           24277.1          11149.3    
+   isoln           isoln            2313.43          1189.78    
+   iavln           iavln            2.33500          0.00000    
+
+
+ OPTIMISATION ITERATION NO.  4 ----->
+ Parameter name    Group          Current value    Sensitivity
+   mnup            mnup             2.40158          319.433    
+   kdcmoss         kdcmoss         6.024061E-03     5.057006E+06
+   kdcrawc         kdcrawc         6.038688E-02     5.056871E+06
+   kdcsoma         kdcsoma         1.011851E-02     5.057074E+06
+   kdcsompr        kdcsompr        2.433118E-03     5.057284E+06
+   kdcsomcr        kdcsomcr        9.449220E-06      57.2006    
+   imossc          imossc           398.484         5.075007E+06
+   ishlwc          ishlwc           1080.06          2197.44    
+   ideepc          ideepc           3276.82         2.238464E+06
+   iminec          iminec           23364.2         5.066208E+06
+   isoln           isoln            2313.93         5.056537E+06
+   iavln           iavln            2.33500          0.00000    
+
+
+ OPTIMISATION ITERATION NO.  5 ----->
+ Parameter name    Group          Current value    Sensitivity
+   mnup            mnup             2.40162          8080.09    
+   kdcmoss         kdcmoss         5.990778E-03      826.985    
+   kdcrawc         kdcrawc         6.001395E-02      16911.5    
+   kdcsoma         kdcsoma         1.005922E-02      3072.24    
+   kdcsompr        kdcsompr        2.418860E-03      14628.7    
+   kdcsomcr        kdcsomcr        9.449420E-06      8994.71    
+   imossc          imossc           397.666         5.066846E+06
+   ishlwc          ishlwc           1080.43         5.052313E+06
+   ideepc          ideepc           3242.37          17738.6    
+   iminec          iminec           23093.5          16883.3    
+   isoln           isoln            2327.68          13522.5    
+   iavln           iavln            2.33500          0.00000    
+
+
+
+                        COMPLETION OF OPTIMISATION PROCESS
+
+ Composite sensitivities for all observations/prior info ----->
+
+ Number of observations with non-zero weight =     5
+ Parameter name    Group          Current value    Sensitivity
+   mnup            mnup             2.40158          505.380    
+   kdcmoss         kdcmoss         6.039506E-03      6517.44    
+   kdcrawc         kdcrawc         6.053356E-02      1982.46    
+   kdcsoma         kdcsoma         1.011987E-02      14.8015    
+   kdcsompr        kdcsompr        2.438916E-03      547.253    
+   kdcsomcr        kdcsomcr        9.449230E-06      35.7216    
+   imossc          imossc           398.160         5.057219E+06
+   ishlwc          ishlwc           1050.87          17394.0    
+   ideepc          ideepc           3303.07          71738.3    
+   iminec          iminec           24277.1          10323.5    
+   isoln           isoln            2313.43          1351.87    
+   iavln           iavln            2.33500          0.00000    

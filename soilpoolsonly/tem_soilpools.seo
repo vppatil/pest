@@ -1,0 +1,6 @@
+ Observation           Group         Measured          Modelled        Sensitivity
+ carbondeep            obsgroup       3213.020          3589.671          240891.1    
+ carbonshallow         obsgroup       3562.650          1896.294          2093104.    
+ carbonminsum          obsgroup       23913.30          25966.66          43697.94    
+ organicnsum           obsgroup       2121.380          1721.246          10610.46    
+ availablensum         obsgroup      0.5276510         2.4864602E-02      4513.244    

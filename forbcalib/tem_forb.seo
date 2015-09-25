@@ -1,0 +1,12 @@
+ Observation           Group         Measured          Modelled        Sensitivity
+ gppall4               obsgroup       34.16200          31.21977          6867.553    
+ nppall4               obsgroup       107.1480          20.63435          4660.563    
+ vegcl4                obsgroup       23.79040          10.33954          2902.491    
+ vegcw4                obsgroup       0.000000          0.000000          0.000000    
+ vegcr4                obsgroup       153.2340          10.33954          2902.491    
+ vegcsum4              obsgroup       177.0240          20.67907          5804.975    
+ vegnl4                obsgroup       1.710830         0.4045202          113.5707    
+ vegnw4                obsgroup       0.000000          0.000000          0.000000    
+ vegnr4                obsgroup       3.225980         0.4045202          113.5707    
+ vegnsum4              obsgroup       4.936810         0.8090403          227.1412    
+ veglbln4              obsgroup      0.9873610         0.3001699          113.2461    

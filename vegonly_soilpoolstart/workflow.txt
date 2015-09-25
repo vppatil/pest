@@ -1,0 +1,56 @@
+1) make sure that pest_processing.r creates desired summary of output vals from data
+2) make sure that pest_ins_create.r creates instruction file that matches output variable names as shown in the output.txt file
+3) run inschek tem.ins to make sure instructions are well formed.
+4) make observations file by copying output.txt but replacing model values with observed (target) values
+5) make output file from .ins and observations file in output.csv > .obf
+6) create .par file with precision, decimal point on top line. then par name (from .tpl files), starting value, scale (1) and offset (0)
+7) make basic control file > pestgen tem tem.par tem.obf
+8) edit control file .pst - set number of template files - 2nd row of #, first column in control data section. Also change scale adjustment first number in parameter groups.
+   -also change/transform parameters if necessary, set lower and upper bounds, and verify starting vals.
+   -specify batch file in model command line
+   -specify tpl files-space-path to corresponding config files
+   - then .ins modeloutput.txt
+######################################################
+trials
+-read up on pest parameter weights- make inverse of value -done
+-manually copy vals from colin calib into your file and run -done- didn't look good
+-if it looks ok, use as starting point for pest run with parameter weights = use gsattempt confi file config files instead
+-start with pest soil calib vals and run pest to optimize veg pools only for all pfts.
+-copy in corrected (transformed) nc climate files.
+
+ok- so trial with non-log transformed vals for pfts 3-6 based on gs attempt confi files
+
+-next- trial with non-log transformed vals for pfts 3-6 with no soil targets but keeping soil parameters based on previous pest run that heavily weighted soil pars. shouldn't need to weight parameters.
+
+
+###########################################################
+#optimization notes:
+
+-assign parameters to different parameter groups
+-assign observations to different observation groups
+
+weight observations appropriately- weight smaller observations higher so they are visible
+log-transform all parameters whose lower bound is greater than 0
+
+log-transform observations as well?
+
+set RLAMDA1 = 10.0
+set RLAMFAC = -3
+
+make SVD section- makes sure it maintains numerical stability.
+SVDMODE = 1;
+MAXSING = # of adjustable parameters;
+EIGTHRESH = 5x10-7;
+EIGWRITE = 0;
+
+in control data section:
+NOPTMAX = zero
+
+- then run model once.
+- then run PWTADJI - creates new pest control file.
+
+add Tikhonov regularization to pest control file by running addreg1 utility
+
+then later you can set PHIMLIM to value slightly higher than lowest achievable objective function
+
+- so either the weighting will balance out the size of observations, or the log-transformation will. I am inclined to try the log-transformation first.

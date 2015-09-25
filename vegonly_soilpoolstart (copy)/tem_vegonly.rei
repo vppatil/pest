@@ -1,0 +1,49 @@
+
+ MODEL OUTPUTS AT END OF OPTIMISATION ITERATION NO.   7:-
+
+
+ Name                 Group          Measured         Modelled         Residual         Weight
+ gppall3              obsgroup       398.0000         332.0455         65.95450         1.000000    
+ nppall3              obsgroup       199.0000         171.0188         27.98115         1.000000    
+ vegcl3               obsgroup       139.0330         53.18003         85.85297         1.000000    
+ vegcw3               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegcr3               obsgroup       242.5760         290.5036        -47.92762         1.000000    
+ vegcsum3             obsgroup       381.6090         343.6837         37.92535         1.000000    
+ vegnl3               obsgroup       5.496620         2.659001         2.837619         1.000000    
+ vegnw3               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegnr3               obsgroup       5.106870         14.52518        -9.418311         1.000000    
+ vegnsum3             obsgroup       10.60350         17.18418        -6.580683         1.000000    
+ veglbln3             obsgroup       2.120700         2.764440       -0.6437403         1.000000    
+ gppall4              obsgroup       34.16200         0.000000         34.16200         1.000000    
+ nppall4              obsgroup       107.1480         0.000000         107.1480         1.000000    
+ vegcl4               obsgroup       23.79040         0.000000         23.79040         1.000000    
+ vegcw4               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegcr4               obsgroup       153.2340         0.000000         153.2340         1.000000    
+ vegcsum4             obsgroup       177.0240         0.000000         177.0240         1.000000    
+ vegnl4               obsgroup       1.710830         0.000000         1.710830         1.000000    
+ vegnw4               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegnr4               obsgroup       3.225980         0.000000         3.225980         1.000000    
+ vegnsum4             obsgroup       4.936810         0.000000         4.936810         1.000000    
+ veglbln4             obsgroup      0.9873610         0.000000        0.9873610         1.000000    
+ gppall5              obsgroup       25.65950         0.000000         25.65950         1.000000    
+ nppall5              obsgroup       12.82980         0.000000         12.82980         1.000000    
+ vegcl5               obsgroup       12.82980         0.000000         12.82980         1.000000    
+ vegcw5               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegcr5               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegcsum5             obsgroup       12.82980         0.000000         12.82980         1.000000    
+ vegnl5               obsgroup      0.3522030         0.000000        0.3522030         1.000000    
+ vegnw5               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegnr5               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegnsum5             obsgroup      0.3520000         0.000000        0.3520000         1.000000    
+ veglbln5             obsgroup      7.0400000E-02     0.000000        7.0400000E-02     1.000000    
+ gppall6              obsgroup       34.20000         0.000000         34.20000         1.000000    
+ nppall6              obsgroup       17.08100         0.000000         17.08100         1.000000    
+ vegcl6               obsgroup       43.93350         0.000000         43.93350         1.000000    
+ vegcw6               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegcr6               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegcsum6             obsgroup       43.93350         0.000000         43.93350         1.000000    
+ vegnl6               obsgroup       1.615530         0.000000         1.615530         1.000000    
+ vegnw6               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegnr6               obsgroup       0.000000         0.000000         0.000000         1.000000    
+ vegnsum6             obsgroup       1.615530         0.000000         1.615530         1.000000    
+ veglbln6             obsgroup      0.3231050         0.000000        0.3231050         1.000000    

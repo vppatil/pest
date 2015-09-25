@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ~/julcheck/dvm-dos-tem/
+./dvmdostem --cal-mode -l note
+
+cd ~/Desktop/pest/
+rm TEM_Pest_Output.txt
+R CMD BATCH pest_processing.r

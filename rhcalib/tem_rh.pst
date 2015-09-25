@@ -1,0 +1,234 @@
+pcf
+* control data
+restart  estimation
+   45    50    45     0     1
+    3     1 double point   1   0   0
+  5.0   2.0   0.3  0.03    10
+  3.0   3.0 0.001  0
+  0.1
+   30  0.01     3     3  0.01     3
+    1     1     1
+* singular value decomposition
+1
+20 5E-7
+0
+* parameter groups
+cmax3        relative 0.01  0.0  switch  2.0 parabolic
+nmax3        relative 0.01  0.0  switch  2.0 parabolic
+cfalll3      relative 0.01  0.0  switch  2.0 parabolic
+cfallr3      relative 0.01  0.0  switch  2.0 parabolic
+nfalll3      relative 0.01  0.0  switch  2.0 parabolic
+nfallr3      relative 0.01  0.0  switch  2.0 parabolic
+krb03        relative 0.01  0.0  switch  2.0 parabolic
+krb23        relative 0.01  0.0  switch  2.0 parabolic
+cmax4        relative 0.01  0.0  switch  2.0 parabolic
+nmax4        relative 0.01  0.0  switch  2.0 parabolic
+cfalll4      relative 0.01  0.0  switch  2.0 parabolic
+cfallr4      relative 0.01  0.0  switch  2.0 parabolic
+nfalll4      relative 0.01  0.0  switch  2.0 parabolic
+nfallr4      relative 0.01  0.0  switch  2.0 parabolic
+krb04        relative 0.01  0.0  switch  2.0 parabolic
+krb24        relative 0.01  0.0  switch  2.0 parabolic
+cmax5        relative 0.01  0.0  switch  2.0 parabolic
+nmax5        relative 0.01  0.0  switch  2.0 parabolic
+cfalll5      relative 0.01  0.0  switch  2.0 parabolic
+cfallr5      relative 0.01  0.0  switch  2.0 parabolic
+nfalll5      relative 0.01  0.0  switch  2.0 parabolic
+nfallr5      relative 0.01  0.0  switch  2.0 parabolic
+krb05        relative 0.01  0.0  switch  2.0 parabolic
+krb25        relative 0.01  0.0  switch  2.0 parabolic
+cmax6        relative 0.01  0.0  switch  2.0 parabolic
+nmax6        relative 0.01  0.0  switch  2.0 parabolic
+cfalll6      relative 0.01  0.0  switch  2.0 parabolic
+cfallr6      relative 0.01  0.0  switch  2.0 parabolic
+nfalll6      relative 0.01  0.0  switch  2.0 parabolic
+nfallr6      relative 0.01  0.0  switch  2.0 parabolic
+krb06        relative 0.01  0.0  switch  2.0 parabolic
+krb26        relative 0.01  0.0  switch  2.0 parabolic
+mnup         relative 0.01  0.0  switch  2.0 parabolic
+kdcmoss      relative 0.01  0.0  switch  2.0 parabolic
+kdcrawc      relative 0.01  0.0  switch  2.0 parabolic
+kdcsoma      relative 0.01  0.0  switch  2.0 parabolic
+kdcsompr     relative 0.01  0.0  switch  2.0 parabolic
+kdcsomcr     relative 0.01  0.0  switch  2.0 parabolic
+imossc       relative 0.01  0.0  switch  2.0 parabolic
+ishlwc       relative 0.01  0.0  switch  2.0 parabolic
+ideepc       relative 0.01  0.0  switch  2.0 parabolic
+iminec       relative 0.01  0.0  switch  2.0 parabolic
+isoln        relative 0.01  0.0  switch  2.0 parabolic
+iavln        relative 0.01  0.0  switch  2.0 parabolic
+turnon        relative 0.01  0.0  switch  2.0 parabolic
+* parameter data
+cmax0	log	factor	100	1.00E+003	1.00E+003	cmax0	1	0	1
+nmax0	log	factor	0.5	1.00E+002	1.00E+002	nmax0	1	0	1
+cfalll0	log	factor	1.00E-003	8.33E-002	1.00E+010	cfalll0	1	0	1
+cfallw0	log	factor	1.00E-003	8.33E-002	1.00E+010	cfallw0	1	0	1
+cfallr0	log	factor	1.00E-003	8.33E-002	1.00E+010	cfallr0	1	0	1
+nfalll0	log	factor	1.00E-003	8.33E-002	1.00E+010	nfalll0	1	0	1
+nfallw0	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallw0	1	0	1
+nfallr0	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallr0	1	0	1
+krb00	none	factor	-10	-1.00E-003	1.00E+010	krb00	1	0	1
+krb10	none	factor	-10	-1.00E-003	1.00E+010	krb10	1	0	1
+krb20	none	factor	-10	-1.00E-003	1.00E+010	krb20	1	0	1
+cmax1	log	factor	100	1.00E+003	1.00E+010	cmax1	1	0	1
+nmax1	log	factor	0.5	1.00E+002	1.00E+010	nmax1	1	0	1
+cfalll1	log	factor	1.00E-003	8.33E-002	1.00E+010	cfalll1	1	0	1
+cfallw1	log	factor	1.00E-003	8.33E-002	1.00E+010	cfallw1	1	0	1
+cfallr1	log	factor	1.00E-003	8.33E-002	1.00E+010	cfallr1	1	0	1
+nfalll1	log	factor	1.00E-003	8.33E-002	1.00E+010	nfalll1	1	0	1
+nfallw1	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallw1	1	0	1
+nfallr1	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallr1	1	0	1
+krb01	none	factor	-10	-1.00E-003	1.00E+010	krb01	1	0	1
+krb11	none	factor	-10	-1.00E-003	1.00E+010	krb11	1	0	1
+krb21	none	factor	-10	-1.00E-003	1.00E+010	krb21	1	0	1
+cmax2	log	factor	100	1.00E+003	1.00E+010	cmax2	1	0	1
+nmax2	log	factor	0.5	1.00E+002	1.00E+010	nmax2	1	0	1
+cfalll2	log	factor	1.00E-003	8.33E-002	1.00E+010	cfalll2	1	0	1
+cfallw2	log	factor	1.00E-003	8.33E-002	1.00E+010	cfallw2	1	0	1
+cfallr2	log	factor	1.00E-003	8.33E-002	1.00E+010	cfallr2	1	0	1
+nfalll2	log	factor	1.00E-003	8.33E-002	1.00E+010	nfalll2	1	0	1
+nfallw2	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallw2	1	0	1
+nfallr2	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallr2	1	0	1
+krb02	none	factor	-10	-1.00E-003	1.00E+010	krb02	1	0	1
+krb12	none	factor	-10	-1.00E-003	1.00E+010	krb12	1	0	1
+krb22	none	factor	-10	-1.00E-003	1.00E+010	krb22	1	0	1
+cmax3	log	factor	100	1.00E+003	1.00E+010	cmax3	1	0	1
+nmax3	log	factor	0.5	1.00E+002	1.00E+010	nmax3	1	0	1
+cfalll3	log	factor	1.00E-003	8.33E-002	1.00E+010	cfalll3	1	0	1
+cfallw3	log	factor	1.00E-003	8.33E-002	1.00E+010	cfallw3	1	0	1
+cfallr3	log	factor	1.00E-003	8.33E-002	1.00E+010	cfallr3	1	0	1
+nfalll3	log	factor	1.00E-003	8.33E-002	1.00E+010	nfalll3	1	0	1
+nfallw3	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallw3	1	0	1
+nfallr3	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallr3	1	0	1
+krb03	none	factor	-10	-1.00E-003	1.00E+010	krb03	1	0	1
+krb13	none	factor	-10	-1.00E-003	1.00E+010	krb13	1	0	1
+krb23	none	factor	-10	-1.00E-003	1.00E+010	krb23	1	0	1
+cmax4	log	factor	100	1.00E+003	1.00E+010	cmax4	1	0	1
+nmax4	log	factor	0.5	1.00E+002	1.00E+010	nmax4	1	0	1
+cfalll4	log	factor	1.00E-003	8.33E-002	1.00E+010	cfalll4	1	0	1
+cfallw4	none	factor	1.00E-003	8.33E-002	1.00E+010	cfallw4	1	0	1
+cfallr4	log	factor	1.00E-003	8.33E-002	1.00E+010	cfallr4	1	0	1
+nfalll4	log	factor	1.00E-003	8.33E-002	1.00E+010	nfalll4	1	0	1
+nfallw4	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallw4	1	0	1
+nfallr4	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallr4	1	0	1
+krb04	none	factor	-10	-1.00E-003	1.00E+010	krb04	1	0	1
+krb14	none	factor	-10	-1.00E-003	1.00E+010	krb14	1	0	1
+krb24	none	factor	-10	-1.00E-003	1.00E+010	krb24	1	0	1
+cmax5	log	factor	100	1.00E+003	1.00E+010	cmax5	1	0	1
+nmax5	log	factor	0.5	1.00E+002	1.00E+010	nmax5	1	0	1
+cfalll5	log	factor	1.00E-003	8.33E-002	1.00E+010	cfalll5	1	0	1
+cfallw5	none	factor	1.00E-003	8.33E-002	1.00E+010	cfallw5	1	0	1
+cfallr5	log	factor	1.00E-003	8.33E-002	1.00E+010	cfallr5	1	0	1
+nfalll5	log	factor	1.00E-003	8.33E-002	1.00E+010	nfalll5	1	0	1
+nfallw5	none	factor	1.00E-003	8.33E-002	1.00E+010	nfallw5	1	0	1
+nfallr5	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallr5	1	0	1
+krb05	none	factor	-10	-1.00E-003	1.00E+010	krb05	1	0	1
+krb15	none	factor	-10	-1.00E-003	1.00E+010	krb15	1	0	1
+krb25	none	factor	-10	-1.00E-003	1.00E+010	krb25	1	0	1
+cmax6	log	factor	100	1.00E+003	1.00E+010	cmax6	1	0	1
+nmax6	log	factor	0.5	1.00E+002	1.00E+010	nmax6	1	0	1
+cfalll6	log	factor	1.00E-003	8.33E-002	1.00E+010	cfalll6	1	0	1
+cfallw6	none	factor	1.00E-003	8.33E-002	1.00E+010	cfallw6	1	0	1
+cfallr6	log	factor	1.00E-003	8.33E-002	1.00E+010	cfallr6	1	0	1
+nfalll6	log	factor	1.00E-003	8.33E-002	1.00E+010	nfalll6	1	0	1
+nfallw6	none	factor	1.00E-003	8.33E-002	1.00E+010	nfallw6	1	0	1
+nfallr6	log	factor	1.00E-003	8.33E-002	1.00E+010	nfallr6	1	0	1
+krb06	none	factor	-10	-1.00E-003	1.00E+010	krb06	1	0	1
+krb16	none	factor	-10	-1.00E-003	1.00E+010	krb16	1	0	1
+krb26	none	factor	-10	-1.00E-003	1.00E+010	krb26	1	0	1
+cmax7	log	factor	100	1.00E+003	1.00E+010	cmax7	1	0	1
+nmax7	log	factor	0.5	1.00E+002	1.00E+010	nmax7	1	0	1
+cfalll7	log	factor	1.00E-003	8.33E-002	1.00E+010	cfalll7	1	0	1
+cfallw7	none	factor	1.00E-003	8.33E-002	1.00E+010	cfallw7	1	0	1
+cfallr7	none	factor	1.00E-003	8.33E-002	1.00E+010	cfallr7	1	0	1
+nfalll7	log	factor	1.00E-003	8.33E-002	1.00E+010	nfalll7	1	0	1
+nfallw7	none	factor	1.00E-003	8.33E-002	1.00E+010	nfallw7	1	0	1
+nfallr7	none	factor	1.00E-003	8.33E-002	1.00E+010	nfallr7	1	0	1
+krb07	none	factor	-10	-1.00E-003	1.00E+010	krb07	1	0	1
+krb17	none	factor	-10	-1.00E-003	1.00E+010	krb17	1	0	1
+krb27	none	factor	-10	-1.00E-003	1.00E+010	krb27	1	0	1
+cmax8	log	factor	100	1.00E+003	1.00E+010	cmax8	1	0	1
+nmax8	log	factor	0.5	1.00E+002	1.00E+010	nmax8	1	0	1
+cfalll8	log	factor	1.00E-003	8.33E-002	1.00E+010	cfalll8	1	0	1
+cfallw8	none	factor	1.00E-003	8.33E-002	1.00E+010	cfallw8	1	0	1
+cfallr8	none	factor	1.00E-003	8.33E-002	1.00E+010	cfallr8	1	0	1
+nfalll8	log	factor	1.00E-003	8.33E-002	1.00E+010	nfalll8	1	0	1
+nfallw8	none	factor	1.00E-003	8.33E-002	1.00E+010	nfallw8	1	0	1
+nfallr8	none	factor	1.00E-003	8.33E-002	1.00E+010	nfallr8	1	0	1
+krb08	none	factor	-10	-1.00E-003	1.00E+010	krb08	1	0	1
+krb18	none	factor	-10	-1.00E-003	1.00E+010	krb18	1	0	1
+krb28	none	factor	-10	-1.00E-003	1.00E+010	krb28	1	0	1
+mnup	log	factor	2.65253	-1.00E+010	1.00E+010	mnup	1	0	1
+kdcmoss	log	factor	1.00E-004	9.00E-001	1.00E+010	kdcmoss	1	0	1
+kdcrawc	log	factor	1.00E-004	9.00E-001	1.00E+010	kdcrawc	1	0	1
+kdcsoma	log	factor	1.00E-004	9.00E-001	1.00E+010	kdcsoma	1	0	1
+kdcsompr	log	factor	1.00E-004	9.00E-001	1.00E+010	kdcsompr	1	0	1
+kdcsomcr	log	factor	1.00E-004	9.00E-001	1.00E+010	kdcsomcr	1	0	1
+imossc	log	factor	50	5.00E+003	1.00E+010	imossc	1	0	1
+ishlwc	log	factor	10	4.00E+003	1.00E+010	ishlwc	1	0	1
+ideepc	log	factor	10	4.00E+003	1.00E+010	ideepc	1	0	1
+iminec	log	factor	100	3.00E+005	1.00E+010	iminec	1	0	1
+isoln	log	factor	10	1.00E+004	1.00E+010	isoln	1	0	1
+iavln	log	factor	0.01	2.00E+001	1.00E+010	iavln	1	0	1
+turnon	log	factor	1	6.00E+002	1.00E+010	turnon	1	0	1
+* observation groups
+obsgroup
+* observation data
+carbondeep	3213.02	0.001	obsgroup
+carbonshallow	3562.65	0.001	obsgroup
+carbonminsum	23913.3	0.001	obsgroup
+organicnsum	2121.38	0.001	obsgroup
+availablensum	0.527651	0.001	obsgroup
+rh	300	1	obsgroup
+gppall3	398.182	1	obsgroup
+nppall3	199.091	1	obsgroup
+vegcl3	139.033	1	obsgroup
+vegcw3	0	1	obsgroup
+vegcr3	242.576	1	obsgroup
+vegcsum3	381.609	1	obsgroup
+vegnl3	5.49662	1	obsgroup
+vegnw3	0	1	obsgroup
+vegnr3	5.10687	1	obsgroup
+vegnsum3	10.6035	1	obsgroup
+veglbln3	2.1207	1	obsgroup
+gppall4	34.162	1	obsgroup
+nppall4	107.148	1	obsgroup
+vegcl4	23.7904	1	obsgroup
+vegcw4	0	1	obsgroup
+vegcr4	153.234	1	obsgroup
+vegcsum4	177.024	1	obsgroup
+vegnl4	1.71083	1	obsgroup
+vegnw4	0	1	obsgroup
+vegnr4	3.22598	1	obsgroup
+vegnsum4	4.93681	1	obsgroup
+veglbln4	0.987361	1	obsgroup
+gppall5	25.6595	1	obsgroup
+nppall5	12.8298	1	obsgroup
+vegcl5	12.8298	1	obsgroup
+vegcw5	0	1	obsgroup
+vegcr5	0	1	obsgroup
+vegcsum5	12.8298	1	obsgroup
+vegnl5	0.352203	1	obsgroup
+vegnw5	0	1	obsgroup
+vegnr5	0	1	obsgroup
+vegnsum5	0.352203	1	obsgroup
+veglbln5	7.04E-002	1	obsgroup
+gppall6	34.162	1	obsgroup
+nppall6	17.081	1	obsgroup
+vegcl6	43.9335	1	obsgroup
+vegcw6	0	1	obsgroup
+vegcr6	0	1	obsgroup
+vegcsum6	43.9335	1	obsgroup
+vegnl6	1.61553	1	obsgroup
+vegnw6	0	1	obsgroup
+vegnr6	0	1	obsgroup
+vegnsum6	1.61553	1	obsgroup
+veglbln6	0.323105	1	obsgroup
+* model command line
+/home/vijay/Desktop/pest/rhcalib/pest_batch_rh
+* model input/output
+/home/vijay/Desktop/pest/rhcalib/calpar_rh.tpl /home/vijay/jul2015check/dvm-dos-tem/config/cmt_calparbgc.txt
+/home/vijay/Desktop/pest/rhcalib/caldir.tpl /home/vijay/jul2015check/dvm-dos-tem/config/calibration_directives.txt
+/home/vijay/Desktop/pest/rhcalib/bgcsoil.tpl /home/vijay/jul2015check/dvm-dos-tem/config/cmt_bgcsoil.txt
+/home/vijay/Desktop/pest/rhcalib/tem_rh.ins  /home/vijay/Desktop/pest/rhcalib/TEM_Pest_Output_rh.txt
+* prior information

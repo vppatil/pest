@@ -1,0 +1,435 @@
+ PEST RUN RECORD: CASE /home/vijay/Desktop/pest/soilpoolsonly/tem_soilpools
+
+
+ PEST Version: 13.4
+
+
+ PEST run mode:-
+
+    Parameter estimation mode
+
+
+ Case dimensions:-
+
+    Number of parameters                           :    12
+    Number of adjustable parameters                :    12
+    Number of parameter groups                     :    12
+    Number of observations                         :     5
+    Number of prior estimates                      :     0
+
+
+ Model command line(s):-
+
+    /home/vijay/Desktop/pest/soilpoolsonly/pest_batch_soilpools
+
+
+ Jacobian command line:-
+
+    na
+
+
+ Model interface files:-
+
+    Templates:
+       /home/vijay/Desktop/pest/soilpoolsonly/calpar_soilpools.tpl
+       /home/vijay/Desktop/pest/soilpoolsonly/bgcsoil.tpl
+    for model input files:
+       /home/vijay/jul2015check/dvm-dos-tem/config/cmt_calparbgc.txt
+       /home/vijay/jul2015check/dvm-dos-tem/config/cmt_bgcsoil.txt
+
+    (Parameter values written using double precision protocol.)
+    (Decimal point always included.)
+
+    Instruction files:
+       /home/vijay/Desktop/pest/soilpoolsonly/tem_soilpools.ins
+    for reading model output files:
+       /home/vijay/Desktop/pest/soilpoolsonly/TEM_Pest_Output_soilpools.txt
+
+
+ PEST-to-model message file:-
+
+    na
+
+
+ Singular value decomposition:-
+
+    Perform SVD on XtQX or Q^(1/2)X               : XtQX
+    Max. number of singular values to employ      : 12
+    Ratio of lowest/highest singular value        :  5.000000E-07
+    Record eigenvectors in SVD file               : no
+
+
+ Derivatives calculation:-
+
+ Param        Increment   Increment   Increment   Forward or   Multiplier  Method
+ group        type                    low bound   central      (central)   (central)
+ mnup         relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcmoss      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcrawc      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsoma      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsompr     relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsomcr     relative    1.0000E-02   none         switch       2.000     parabolic
+ imossc       relative    1.0000E-02   none         switch       2.000     parabolic
+ ishlwc       relative    1.0000E-02   none         switch       2.000     parabolic
+ ideepc       relative    1.0000E-02   none         switch       2.000     parabolic
+ iminec       relative    1.0000E-02   none         switch       2.000     parabolic
+ isoln        relative    1.0000E-02   none         switch       2.000     parabolic
+ iavln        relative    1.0000E-02   none         switch       2.000     parabolic
+
+
+ Parameter definitions:-
+
+ Name         Trans-            Change       Initial        Lower          Upper
+              formation         limit        value          bound          bound
+ mnup         log               factor      2.40006       0.100000        10.0000    
+ kdcmoss      log               factor     5.941700E-03   1.000000E-04   0.900000    
+ kdcrawc      log               factor     6.133010E-02   1.000000E-04   0.900000    
+ kdcsoma      log               factor     1.011970E-02   1.000000E-04   0.900000    
+ kdcsompr     log               factor     2.434500E-03   1.000000E-04   0.900000    
+ kdcsomcr     log               factor     1.000000E-05   1.000000E-07   0.900000    
+ imossc       log               factor      400.000        50.0000        5000.00    
+ ishlwc       log               factor      1000.00        10.0000        4000.00    
+ ideepc       log               factor      3528.03        10.0000        4000.00    
+ iminec       log               factor      28541.3        100.000        300000.    
+ isoln        log               factor      2348.16        10.0000        10000.0    
+ iavln        log               factor      2.33500       1.000000E-02    20.0000    
+
+ Name         Group          Scale         Offset        Model command number
+ mnup         mnup          1.00000        0.00000            1
+ kdcmoss      kdcmoss       1.00000        0.00000            1
+ kdcrawc      kdcrawc       1.00000        0.00000            1
+ kdcsoma      kdcsoma       1.00000        0.00000            1
+ kdcsompr     kdcsompr      1.00000        0.00000            1
+ kdcsomcr     kdcsomcr      1.00000        0.00000            1
+ imossc       imossc        1.00000        0.00000            1
+ ishlwc       ishlwc        1.00000        0.00000            1
+ ideepc       ideepc        1.00000        0.00000            1
+ iminec       iminec        1.00000        0.00000            1
+ isoln        isoln         1.00000        0.00000            1
+ iavln        iavln         1.00000        0.00000            1
+
+
+ Prior information:-
+
+    No prior information supplied
+
+
+ Observations:-
+
+ Observation name        Observation       Weight       Group
+  carbondeep              3213.02          10.00       obsgroup    
+  carbonshallow           3562.65          10.00       obsgroup    
+  carbonminsum            23913.3          1.000       obsgroup    
+  organicnsum             2121.38          1.000       obsgroup    
+  availablensum          0.527651          1000.       obsgroup    
+
+
+ Control settings:-
+
+    Initial lambda                                               :  5.0000    
+    Lambda adjustment factor                                     :  2.0000    
+    Sufficient new/old phi ratio per optimisation iteration      : 0.30000    
+    Limiting relative phi reduction between lambdas              : 3.00000E-02
+    Maximum trial lambdas per iteration                          :  10
+    Forgive model run failure during lamda testing               : no
+    Forgive model run failure during Jacobian runs               : no
+
+    Perform Broyden's update of Jacobian matrix                  : no
+    Undertake observation re-referencing                         : no
+
+    Maximum  factor  parameter change (factor-limited changes)   :  3.0000
+    Maximum relative parameter change (relative-limited changes) : na
+    Fraction of initial parameter values used in computing
+    change limit for near-zero parameters                        : 1.00000E-03
+    Allow bending of parameter upgrade vector                    : no
+    Allow parameters to stick to their bounds                    : no
+
+    Relative phi reduction below which to begin use of
+    central derivatives                                          : 0.10000             
+    Iteration at which to first consider derivatives switch      :   1
+
+    Relative phi reduction indicating convergence                : 0.10000E-01
+    Number of phi values required within this range              :   3
+    Maximum number of consecutive failures to lower phi          :   3
+    Minimal relative parameter change indicating convergence     : 0.10000E-01
+    Number of consecutive iterations with minimal param change   :   3
+    Maximum number of optimisation iterations                    :  30
+
+    Attempt automatic user intervention                          : no
+
+    Attempt reuse of parameter sensitivities                     : no
+
+    Scale parameters by their bounds                             : no
+
+
+ File saving options: -
+
+    Save best JCO file                                           : yes
+    Save multiple JCO files                                      : no
+    Save multiple REI files                                      : no
+    Save multiple PAR files                                      : no
+
+
+                             OPTIMISATION RECORD
+
+
+ INITIAL CONDITIONS: 
+    Sum of squared weighted residuals (ie phi) =  1.77263E+11
+
+       Current parameter values
+       mnup             2.40006    
+       kdcmoss         5.941700E-03
+       kdcrawc         6.133010E-02
+       kdcsoma         1.011970E-02
+       kdcsompr        2.434500E-03
+       kdcsomcr        1.000000E-05
+       imossc           400.000    
+       ishlwc           1000.00    
+       ideepc           3528.03    
+       iminec           28541.3    
+       isoln            2348.16    
+       iavln            2.33500    
+
+
+ OPTIMISATION ITERATION NO.        : 1
+    Model calls so far             : 1
+    Starting phi for this iteration:  1.77263E+11
+
+    Parameter "iavln" has no effect on observations.
+
+        Lambda =   5.0000     ----->
+           Phi =  1.77033E+11  (  0.999 of starting phi)
+
+        Lambda =   2.5000     ----->
+           Phi =  1.77073E+11  (  0.999 of starting phi)
+
+        Lambda =   10.000     ----->
+           Phi =  1.77120E+11  (  0.999 of starting phi)
+
+    No more lambdas: phi rising
+    Lowest phi this iteration:  1.77033E+11
+    Relative phi reduction between optimisation iterations less than 0.1000
+    Switch to central derivatives calculation
+
+       Current parameter values                 Previous parameter values
+       mnup             2.39980                 mnup              2.40006    
+       kdcmoss         5.958020E-03             kdcmoss          5.941700E-03
+       kdcrawc         6.067782E-02             kdcrawc          6.133010E-02
+       kdcsoma         1.011921E-02             kdcsoma          1.011970E-02
+       kdcsompr        2.435843E-03             kdcsompr         2.434500E-03
+       kdcsomcr        9.449680E-06             kdcsomcr         1.000000E-05
+       imossc           409.289                 imossc            400.000    
+       ishlwc           1044.35                 ishlwc            1000.00    
+       ideepc           3563.66                 ideepc            3528.03    
+       iminec           22431.2                 iminec            28541.3    
+       isoln            2310.68                 isoln             2348.16    
+       iavln            2.33500                 iavln             2.33500    
+    Maximum   factor change:  1.272     ["iminec"]
+    Maximum relative change: 0.2141     ["iminec"]
+
+
+ OPTIMISATION ITERATION NO.        : 2
+    Model calls so far             : 16
+    Starting phi for this iteration:  1.77033E+11
+
+    Parameter "iavln" has no effect on observations.
+
+        Lambda =   5.0000     ----->
+           Phi =  2.96490E+08  (  0.002 of starting phi)
+
+    No more lambdas: phi is less than 0.3000 of starting phi
+    Lowest phi this iteration:  2.96490E+08
+
+       Current parameter values                 Previous parameter values
+       mnup             2.40158                 mnup              2.39980    
+       kdcmoss         6.039506E-03             kdcmoss          5.958020E-03
+       kdcrawc         6.053356E-02             kdcrawc          6.067782E-02
+       kdcsoma         1.011987E-02             kdcsoma          1.011921E-02
+       kdcsompr        2.438916E-03             kdcsompr         2.435843E-03
+       kdcsomcr        9.449230E-06             kdcsomcr         9.449680E-06
+       imossc           398.160                 imossc            409.289    
+       ishlwc           1050.87                 ishlwc            1044.35    
+       ideepc           3303.07                 ideepc            3563.66    
+       iminec           24277.1                 iminec            22431.2    
+       isoln            2313.43                 isoln             2310.68    
+       iavln            2.33500                 iavln             2.33500    
+    Maximum   factor change:  1.082     ["iminec"]
+    Maximum relative change: 8.2291E-02 ["iminec"]
+
+
+ OPTIMISATION ITERATION NO.        : 3
+    Model calls so far             : 41
+    Starting phi for this iteration:  2.96490E+08
+
+    Parameter "iavln" has no effect on observations.
+
+        Lambda =   2.5000     ----->
+           Phi =  1.78734E+11  (602.834 times starting phi)
+
+        Lambda =   1.2500     ----->
+           Phi =  1.78734E+11  (602.834 times starting phi)
+
+    No more lambdas: relative phi reduction between lambdas less than 0.0300
+    Lowest phi this iteration:  1.78734E+11
+
+       Current parameter values                 Previous parameter values
+       mnup             2.40158                 mnup              2.40158    
+       kdcmoss         6.024061E-03             kdcmoss          6.039506E-03
+       kdcrawc         6.038688E-02             kdcrawc          6.053356E-02
+       kdcsoma         1.011851E-02             kdcsoma          1.011987E-02
+       kdcsompr        2.433118E-03             kdcsompr         2.438916E-03
+       kdcsomcr        9.449220E-06             kdcsomcr         9.449230E-06
+       imossc           398.484                 imossc            398.160    
+       ishlwc           1080.06                 ishlwc            1050.87    
+       ideepc           3276.82                 ideepc            3303.07    
+       iminec           23364.2                 iminec            24277.1    
+       isoln            2313.93                 isoln             2313.43    
+       iavln            2.33500                 iavln             2.33500    
+    Maximum   factor change:  1.039     ["iminec"]
+    Maximum relative change: 3.7601E-02 ["iminec"]
+
+
+ OPTIMISATION ITERATION NO.        : 4
+    Model calls so far             : 67
+    Starting phi for this iteration:  1.78734E+11
+
+    Parameter "iavln" has no effect on observations.
+
+        Lambda =  0.62500     ----->
+           Phi =  1.78321E+11  (  0.998 of starting phi)
+
+        Lambda =  0.31250     ----->
+           Phi =  1.78555E+11  (  0.999 of starting phi)
+
+        Lambda =   1.2500     ----->
+           Phi =  1.78554E+11  (  0.999 of starting phi)
+
+    No more lambdas: phi rising
+    Lowest phi this iteration:  1.78321E+11
+
+       Current parameter values                 Previous parameter values
+       mnup             2.40162                 mnup              2.40158    
+       kdcmoss         5.990778E-03             kdcmoss          6.024061E-03
+       kdcrawc         6.001395E-02             kdcrawc          6.038688E-02
+       kdcsoma         1.005922E-02             kdcsoma          1.011851E-02
+       kdcsompr        2.418860E-03             kdcsompr         2.433118E-03
+       kdcsomcr        9.449420E-06             kdcsomcr         9.449220E-06
+       imossc           397.666                 imossc            398.484    
+       ishlwc           1080.43                 ishlwc            1080.06    
+       ideepc           3242.37                 ideepc            3276.82    
+       iminec           23093.5                 iminec            23364.2    
+       isoln            2327.68                 isoln             2313.93    
+       iavln            2.33500                 iavln             2.33500    
+    Maximum   factor change:  1.012     ["iminec"]
+    Maximum relative change: 1.1588E-02 ["iminec"]
+
+
+ OPTIMISATION ITERATION NO.        : 5
+    Model calls so far             : 94
+    Starting phi for this iteration:  1.78321E+11
+
+    Parameter "iavln" has no effect on observations.
+
+        Lambda =  0.62500     ----->
+           Phi =  4.32958E+08  (  0.002 of starting phi)
+
+    No more lambdas: phi is less than 0.3000 of starting phi
+    Lowest phi this iteration:  4.32958E+08
+
+       Current parameter values                 Previous parameter values
+       mnup             2.43042                 mnup              2.40162    
+       kdcmoss         5.986741E-03             kdcmoss          5.990778E-03
+       kdcrawc         6.142325E-02             kdcrawc          6.001395E-02
+       kdcsoma         9.951169E-03             kdcsoma          1.005922E-02
+       kdcsompr        2.506640E-03             kdcsompr         2.418860E-03
+       kdcsomcr        9.043570E-06             kdcsomcr         9.449420E-06
+       imossc           408.935                 imossc            397.666    
+       ishlwc           1068.67                 ishlwc            1080.43    
+       ideepc           2696.83                 ideepc            3242.37    
+       iminec           21002.2                 iminec            23093.5    
+       isoln            2261.78                 isoln             2327.68    
+       iavln            2.33500                 iavln             2.33500    
+    Maximum   factor change:  1.202     ["ideepc"]
+    Maximum relative change: 0.1683     ["ideepc"]
+
+    Optimisation complete:   3 optimisation iterations have elapsed since lowest
+                           phi was achieved.
+    Total model calls:    119
+
+    The model has been run one final time using best parameters. 
+    Thus all model input files contain best parameter values, and model 
+    output files contain model results based on these parameters.
+
+
+                             OPTIMISATION RESULTS
+
+ Covariance matrix and parameter confidence intervals cannot be determined:-
+ Some form or regularisation was implemented so these are not applicable.
+
+
+ Parameters ----->
+
+ Parameter      Estimated value
+  mnup            2.40158    
+  kdcmoss        6.039506E-03
+  kdcrawc        6.053356E-02
+  kdcsoma        1.011987E-02
+  kdcsompr       2.438916E-03
+  kdcsomcr       9.449230E-06
+  imossc          398.160    
+  ishlwc          1050.87    
+  ideepc          3303.07    
+  iminec          24277.1    
+  isoln           2313.43    
+  iavln           2.33500    
+
+ See file /home/vijay/Desktop/pest/soilpoolsonly/tem_soilpools.sen for parameter sensitivities.
+
+
+ Observations ----->
+
+ Observation            Measured       Calculated     Residual       Weight     Group
+                        value          value
+ carbondeep             3213.02        3589.67       -376.651        10.00      obsgroup    
+ carbonshallow          3562.65        1896.29        1666.36        10.00      obsgroup    
+ carbonminsum           23913.3        25966.7       -2053.36        1.000      obsgroup    
+ organicnsum            2121.38        1721.25        400.134        1.000      obsgroup    
+ availablensum         0.527651       2.486460E-02   0.502786        1000.      obsgroup    
+
+ See file /home/vijay/Desktop/pest/soilpoolsonly/tem_soilpools.res for more details of residuals in graph-ready format.
+
+ See file /home/vijay/Desktop/pest/soilpoolsonly/tem_soilpools.seo for composite observation sensitivities.
+
+
+ Objective function ----->
+
+   Sum of squared weighted residuals (ie phi)                =  2.9649E+08
+
+
+ Correlation Coefficient ----->
+
+   Correlation coefficient                                   =  0.87145    
+
+
+ Analysis of residuals ----->
+
+   All residuals:-
+      Number of residuals with non-zero weight                       =     5
+      Mean value of non-zero weighted residuals                      =   2349.    
+      Maximum weighted residual [observation "carbonshallow"]        =  1.6664E+04
+      Minimum weighted residual [observation "carbondeep"]           =  -3767.    
+      Standard variance of weighted residuals                        =  5.9298E+07
+      Standard error of weighted residuals                           =   7701.    
+
+      Note: the above variance was obtained by dividing the objective 
+      function by the number of system degrees of freedom (ie. number of 
+      observations with non-zero weight plus number of prior information 
+      articles with non-zero weight minus the number of adjustable parameters.)
+      If the degrees of freedom is negative the divisor becomes 
+      the number of observations with non-zero weight plus the number of 
+      prior information items with non-zero weight.
+
+
+ Covariance and other statistical matrices cannot be determined:-
+ Some form or regularisation was implemented so these are not applicable.
+

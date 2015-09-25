@@ -1,0 +1,870 @@
+           PEST RUN RECORD: CASE shrub_vegonly/tem_shrub_vegonly
+
+
+ PEST Version: 13.4
+
+
+ PEST run mode:-
+
+    Parameter estimation mode
+
+
+ Case dimensions:-
+
+    Number of parameters                           :   112
+    Number of adjustable parameters                :    91
+    Number of parameter groups                     :   112
+    Number of observations                         :    99
+    Number of prior estimates                      :     0
+
+
+ Model command line(s):-
+
+    /home/vijay/Desktop/pest/shrub_vegonly/pest_batch_shrub_vegonly
+
+
+ Jacobian command line:-
+
+    na
+
+
+ Model interface files:-
+
+    Templates:
+       /home/vijay/Desktop/pest/shrub_vegonly/calpar_shrub_vegonly.tpl
+       /home/vijay/Desktop/pest/shrub_vegonly/caldir.tpl
+       /home/vijay/Desktop/pest/shrub_vegonly/bgcsoil.tpl
+    for model input files:
+       /home/vijay/jul2015check/dvm-dos-tem/config/cmt_calparbgc.txt
+       /home/vijay/jul2015check/dvm-dos-tem/config/calibration_directives.txt
+       /home/vijay/jul2015check/dvm-dos-tem/config/cmt_bgcsoil.txt
+
+    (Parameter values written using double precision protocol.)
+    (Decimal point always included.)
+
+    Instruction files:
+       /home/vijay/Desktop/pest/shrub_vegonly/tem_shrub_vegonly.ins
+    for reading model output files:
+       /home/vijay/Desktop/pest/shrub_vegonly/TEM_Pest_Output_shrub_vegonly.txt
+
+
+ PEST-to-model message file:-
+
+    na
+
+
+ Singular value decomposition:-
+
+    Perform SVD on XtQX or Q^(1/2)X               : XtQX
+    Max. number of singular values to employ      : 20
+    Ratio of lowest/highest singular value        :  5.000000E-07
+    Record eigenvectors in SVD file               : no
+
+
+ Derivatives calculation:-
+
+ Param        Increment   Increment   Increment   Forward or   Multiplier  Method
+ group        type                    low bound   central      (central)   (central)
+ cmax0        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax0        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll0      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallw0      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr0      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll0      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallw0      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr0      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb00        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb10        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb20        relative    1.0000E-02   none         switch       2.000     parabolic
+ cmax1        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax1        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll1      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallw1      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr1      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll1      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallw1      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr1      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb01        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb11        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb21        relative    1.0000E-02   none         switch       2.000     parabolic
+ cmax2        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax2        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll2      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallw2      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr2      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll2      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallw2      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr2      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb02        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb12        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb22        relative    1.0000E-02   none         switch       2.000     parabolic
+ cmax3        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax3        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll3      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallw3      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr3      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll3      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallw3      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr3      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb03        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb13        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb23        relative    1.0000E-02   none         switch       2.000     parabolic
+ cmax4        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax4        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll4      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallw4      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr4      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll4      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallw4      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr4      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb04        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb14        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb24        relative    1.0000E-02   none         switch       2.000     parabolic
+ cmax5        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax5        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll5      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallw5      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr5      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll5      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallw5      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr5      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb05        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb15        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb25        relative    1.0000E-02   none         switch       2.000     parabolic
+ cmax6        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax6        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll6      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallw6      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr6      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll6      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallw6      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr6      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb06        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb16        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb26        relative    1.0000E-02   none         switch       2.000     parabolic
+ cmax7        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax7        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll7      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallw7      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr7      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll7      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallw7      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr7      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb07        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb17        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb27        relative    1.0000E-02   none         switch       2.000     parabolic
+ cmax8        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax8        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll8      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallw8      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr8      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll8      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallw8      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr8      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb08        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb18        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb28        relative    1.0000E-02   none         switch       2.000     parabolic
+ mnup         relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcmoss      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcrawc      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsoma      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsompr     relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsomcr     relative    1.0000E-02   none         switch       2.000     parabolic
+ imossc       relative    1.0000E-02   none         switch       2.000     parabolic
+ ishlwc       relative    1.0000E-02   none         switch       2.000     parabolic
+ ideepc       relative    1.0000E-02   none         switch       2.000     parabolic
+ iminec       relative    1.0000E-02   none         switch       2.000     parabolic
+ isoln        relative    1.0000E-02   none         switch       2.000     parabolic
+ iavln        relative    1.0000E-02   none         switch       2.000     parabolic
+ turnon       relative    1.0000E-02   none         switch       2.000     parabolic
+
+
+ Parameter definitions:-
+
+ Name         Trans-            Change       Initial        Lower          Upper
+              formation         limit        value          bound          bound
+ cmax0        log               factor      255.000        100.000        1000.00    
+ nmax0        log               factor      4.50000       0.500000        100.000    
+ cfalll0      log               factor     8.300000E-02   1.000000E-03   8.330000E-02
+ cfallw0      log               factor     2.000000E-02   1.000000E-03   8.330000E-02
+ cfallr0      log               factor     2.700000E-02   1.000000E-03   8.330000E-02
+ nfalll0      log               factor     2.000000E-02   1.000000E-03   8.330000E-02
+ nfallw0      log               factor     1.000000E-02   1.000000E-03   8.330000E-02
+ nfallr0      log               factor     1.200000E-03   1.000000E-03   8.330000E-02
+ krb00        none              factor     -2.30000       -10.0000      -1.000000E-03
+ krb10        none              factor     -5.60000       -10.0000      -1.000000E-03
+ krb20        none              factor     -3.20000       -10.0000      -1.000000E-03
+ cmax1        log               factor      625.000        100.000        1000.00    
+ nmax1        log               factor      8.50000       0.500000        100.000    
+ cfalll1      log               factor     8.300000E-02   1.000000E-03   8.330000E-02
+ cfallw1      log               factor     1.600000E-02   1.000000E-03   8.330000E-02
+ cfallr1      log               factor     2.000000E-02   1.000000E-03   8.330000E-02
+ nfalll1      log               factor     2.800000E-02   1.000000E-03   8.330000E-02
+ nfallw1      log               factor     1.300000E-02   1.000000E-03   8.330000E-02
+ nfallr1      log               factor     9.000000E-03   1.000000E-03   8.330000E-02
+ krb01        none              factor     -3.90000       -10.0000      -1.000000E-03
+ krb11        none              factor     -6.20000       -10.0000      -1.000000E-03
+ krb21        none              factor     -2.05000       -10.0000      -1.000000E-03
+ cmax2        log               factor      83.0000        10.0000        1000.00    
+ nmax2        log               factor     0.810000       0.500000        100.000    
+ cfalll2      log               factor     8.300000E-02   1.000000E-03   8.330000E-02
+ cfallw2      log               factor     1.200000E-02   1.000000E-03   8.330000E-02
+ cfallr2      log               factor     6.800000E-02   1.000000E-03   8.330000E-02
+ nfalll2      log               factor     2.800000E-02   1.000000E-03   8.330000E-02
+ nfallw2      log               factor     5.000000E-03   1.000000E-03   8.330000E-02
+ nfallr2      log               factor     1.600000E-02   1.000000E-03   8.330000E-02
+ krb02        none              factor     -7.50000       -10.0000      -1.000000E-03
+ krb12        none              factor     -3.90000       -10.0000      -1.000000E-03
+ krb22        none              factor     -1.00000       -10.0000      -1.000000E-03
+ cmax3        log               factor      23.9000        10.0000        1000.00    
+ nmax3        log               factor     0.190000       5.000000E-02    100.000    
+ cfalll3      log               factor     1.900000E-02   1.000000E-03   8.330000E-02
+ cfallw3      log               factor     8.000000E-03   1.000000E-03   8.330000E-02
+ cfallr3      log               factor     8.000000E-03   1.000000E-03   8.330000E-02
+ nfalll3      log               factor     1.100000E-02   1.000000E-03   8.330000E-02
+ nfallw3      log               factor     6.000000E-03   1.000000E-03   8.330000E-02
+ nfallr3      log               factor     5.500000E-02   1.000000E-03   8.330000E-02
+ krb03        none              factor     -3.30000       -10.0000      -1.000000E-03
+ krb13        none              factor     -5.80000       -10.0000      -1.000000E-03
+ krb23        none              factor     -2.50000       -10.0000      -1.000000E-03
+ cmax4        log               factor      45.0000        10.0000        1000.00    
+ nmax4        log               factor     0.230000       5.000000E-02    100.000    
+ cfalll4      log               factor     8.300000E-02   1.000000E-03   8.330000E-02
+ cfallw4      fixed               na        0.00000          na             na
+ cfallr4      log               factor     8.300000E-02   1.000000E-03   8.330000E-02
+ nfalll4      log               factor     4.200000E-02   1.000000E-03   8.330000E-02
+ nfallw4      fixed               na        0.00000          na             na
+ nfallr4      log               factor     4.200000E-02   1.000000E-03   8.330000E-02
+ krb04        none              factor     -1.20000       -10.0000      -1.000000E-03
+ krb14        fixed               na        0.00000          na             na
+ krb24        none              factor     -3.30000       -10.0000      -1.000000E-03
+ cmax5        log               factor      66.8000        10.0000        1000.00    
+ nmax5        log               factor     0.760000       0.500000        100.000    
+ cfalll5      log               factor     8.300000E-02   1.000000E-03   8.330000E-02
+ cfallw5      fixed               na        0.00000          na             na
+ cfallr5      log               factor     8.300000E-02   1.000000E-03   8.330000E-02
+ nfalll5      log               factor     4.200000E-02   1.000000E-03   8.330000E-02
+ nfallw5      fixed               na        0.00000          na             na
+ nfallr5      log               factor     4.200000E-02   1.000000E-03   8.330000E-02
+ krb05        none              factor     -3.60000       -10.0000      -1.000000E-03
+ krb15        fixed               na        0.00000          na             na
+ krb25        none              factor     -1.80000       -10.0000      -1.000000E-03
+ cmax6        log               factor      27.8000        10.0000        1000.00    
+ nmax6        log               factor     0.290000       5.000000E-02    100.000    
+ cfalll6      log               factor     8.300000E-02   1.000000E-03   8.330000E-02
+ cfallw6      fixed               na        0.00000          na             na
+ cfallr6      log               factor     8.300000E-02   1.000000E-03   8.330000E-02
+ nfalll6      log               factor     4.200000E-02   1.000000E-03   8.330000E-02
+ nfallw6      fixed               na        0.00000          na             na
+ nfallr6      log               factor     4.200000E-02   1.000000E-03   8.330000E-02
+ krb06        none              factor     -4.10000       -10.0000      -1.000000E-03
+ krb16        fixed               na        0.00000          na             na
+ krb26        none              factor     -1.60000       -10.0000      -1.000000E-03
+ cmax7        log               factor      38.8000        10.0000        1000.00    
+ nmax7        log               factor     0.200000       5.000000E-02    100.000    
+ cfalll7      log               factor     3.700000E-02   1.000000E-03   8.330000E-02
+ cfallw7      fixed               na        0.00000          na             na
+ cfallr7      fixed               na        0.00000          na             na
+ nfalll7      log               factor     1.500000E-02   1.000000E-03   8.330000E-02
+ nfallw7      fixed               na        0.00000          na             na
+ nfallr7      fixed               na        0.00000          na             na
+ krb07        none              factor     -3.10000       -10.0000      -1.000000E-03
+ krb17        fixed               na        0.00000          na             na
+ krb27        fixed               na        0.00000          na             na
+ cmax8        log               factor      86.1000        10.0000        1000.00    
+ nmax8        log               factor     0.100000       5.000000E-02    100.000    
+ cfalll8      log               factor     1.800000E-02   1.000000E-03   8.330000E-02
+ cfallw8      fixed               na        0.00000          na             na
+ cfallr8      fixed               na        0.00000          na             na
+ nfalll8      log               factor     2.000000E-02   1.000000E-03   8.330000E-02
+ nfallw8      fixed               na        0.00000          na             na
+ nfallr8      fixed               na        0.00000          na             na
+ krb08        none              factor     -3.90000       -10.0000      -1.000000E-03
+ krb18        fixed               na        0.00000          na             na
+ krb28        fixed               na        0.00000          na             na
+ mnup         log               factor      2.65250        2.65250        100.000    
+ kdcmoss      log               factor     5.704200E-03   1.000000E-04   0.900000    
+ kdcrawc      log               factor     9.070420E-02   1.000000E-04   0.900000    
+ kdcsoma      log               factor     1.580460E-02   1.000000E-04   0.900000    
+ kdcsompr     log               factor     2.080500E-03   1.000000E-04   0.900000    
+ kdcsomcr     log               factor     1.080000E-05   1.000000E-07   0.900000    
+ imossc       log               factor      100.000        50.0000        5000.00    
+ ishlwc       log               factor      1783.00        10.0000        4000.00    
+ ideepc       log               factor      5021.00        10.0000        40000.0    
+ iminec       log               factor      9000.00        100.000        300000.    
+ isoln        log               factor      363.000        10.0000        10000.0    
+ iavln        log               factor     0.760000       1.000000E-02    20.0000    
+ turnon       log               factor      200.000        1.00000        600.000    
+
+ Name         Group          Scale         Offset        Model command number
+ cmax0        cmax0         1.00000        0.00000            1
+ nmax0        nmax0         1.00000        0.00000            1
+ cfalll0      cfalll0       1.00000        0.00000            1
+ cfallw0      cfallw0       1.00000        0.00000            1
+ cfallr0      cfallr0       1.00000        0.00000            1
+ nfalll0      nfalll0       1.00000        0.00000            1
+ nfallw0      nfallw0       1.00000        0.00000            1
+ nfallr0      nfallr0       1.00000        0.00000            1
+ krb00        krb00         1.00000        0.00000            1
+ krb10        krb10         1.00000        0.00000            1
+ krb20        krb20         1.00000        0.00000            1
+ cmax1        cmax1         1.00000        0.00000            1
+ nmax1        nmax1         1.00000        0.00000            1
+ cfalll1      cfalll1       1.00000        0.00000            1
+ cfallw1      cfallw1       1.00000        0.00000            1
+ cfallr1      cfallr1       1.00000        0.00000            1
+ nfalll1      nfalll1       1.00000        0.00000            1
+ nfallw1      nfallw1       1.00000        0.00000            1
+ nfallr1      nfallr1       1.00000        0.00000            1
+ krb01        krb01         1.00000        0.00000            1
+ krb11        krb11         1.00000        0.00000            1
+ krb21        krb21         1.00000        0.00000            1
+ cmax2        cmax2         1.00000        0.00000            1
+ nmax2        nmax2         1.00000        0.00000            1
+ cfalll2      cfalll2       1.00000        0.00000            1
+ cfallw2      cfallw2       1.00000        0.00000            1
+ cfallr2      cfallr2       1.00000        0.00000            1
+ nfalll2      nfalll2       1.00000        0.00000            1
+ nfallw2      nfallw2       1.00000        0.00000            1
+ nfallr2      nfallr2       1.00000        0.00000            1
+ krb02        krb02         1.00000        0.00000            1
+ krb12        krb12         1.00000        0.00000            1
+ krb22        krb22         1.00000        0.00000            1
+ cmax3        cmax3         1.00000        0.00000            1
+ nmax3        nmax3         1.00000        0.00000            1
+ cfalll3      cfalll3       1.00000        0.00000            1
+ cfallw3      cfallw3       1.00000        0.00000            1
+ cfallr3      cfallr3       1.00000        0.00000            1
+ nfalll3      nfalll3       1.00000        0.00000            1
+ nfallw3      nfallw3       1.00000        0.00000            1
+ nfallr3      nfallr3       1.00000        0.00000            1
+ krb03        krb03         1.00000        0.00000            1
+ krb13        krb13         1.00000        0.00000            1
+ krb23        krb23         1.00000        0.00000            1
+ cmax4        cmax4         1.00000        0.00000            1
+ nmax4        nmax4         1.00000        0.00000            1
+ cfalll4      cfalll4       1.00000        0.00000            1
+ cfallw4      cfallw4       1.00000        0.00000            1
+ cfallr4      cfallr4       1.00000        0.00000            1
+ nfalll4      nfalll4       1.00000        0.00000            1
+ nfallw4      nfallw4       1.00000        0.00000            1
+ nfallr4      nfallr4       1.00000        0.00000            1
+ krb04        krb04         1.00000        0.00000            1
+ krb14        krb14         1.00000        0.00000            1
+ krb24        krb24         1.00000        0.00000            1
+ cmax5        cmax5         1.00000        0.00000            1
+ nmax5        nmax5         1.00000        0.00000            1
+ cfalll5      cfalll5       1.00000        0.00000            1
+ cfallw5      cfallw5       1.00000        0.00000            1
+ cfallr5      cfallr5       1.00000        0.00000            1
+ nfalll5      nfalll5       1.00000        0.00000            1
+ nfallw5      nfallw5       1.00000        0.00000            1
+ nfallr5      nfallr5       1.00000        0.00000            1
+ krb05        krb05         1.00000        0.00000            1
+ krb15        krb15         1.00000        0.00000            1
+ krb25        krb25         1.00000        0.00000            1
+ cmax6        cmax6         1.00000        0.00000            1
+ nmax6        nmax6         1.00000        0.00000            1
+ cfalll6      cfalll6       1.00000        0.00000            1
+ cfallw6      cfallw6       1.00000        0.00000            1
+ cfallr6      cfallr6       1.00000        0.00000            1
+ nfalll6      nfalll6       1.00000        0.00000            1
+ nfallw6      nfallw6       1.00000        0.00000            1
+ nfallr6      nfallr6       1.00000        0.00000            1
+ krb06        krb06         1.00000        0.00000            1
+ krb16        krb16         1.00000        0.00000            1
+ krb26        krb26         1.00000        0.00000            1
+ cmax7        cmax7         1.00000        0.00000            1
+ nmax7        nmax7         1.00000        0.00000            1
+ cfalll7      cfalll7       1.00000        0.00000            1
+ cfallw7      cfallw7       1.00000        0.00000            1
+ cfallr7      cfallr7       1.00000        0.00000            1
+ nfalll7      nfalll7       1.00000        0.00000            1
+ nfallw7      nfallw7       1.00000        0.00000            1
+ nfallr7      nfallr7       1.00000        0.00000            1
+ krb07        krb07         1.00000        0.00000            1
+ krb17        krb17         1.00000        0.00000            1
+ krb27        krb27         1.00000        0.00000            1
+ cmax8        cmax8         1.00000        0.00000            1
+ nmax8        nmax8         1.00000        0.00000            1
+ cfalll8      cfalll8       1.00000        0.00000            1
+ cfallw8      cfallw8       1.00000        0.00000            1
+ cfallr8      cfallr8       1.00000        0.00000            1
+ nfalll8      nfalll8       1.00000        0.00000            1
+ nfallw8      nfallw8       1.00000        0.00000            1
+ nfallr8      nfallr8       1.00000        0.00000            1
+ krb08        krb08         1.00000        0.00000            1
+ krb18        krb18         1.00000        0.00000            1
+ krb28        krb28         1.00000        0.00000            1
+ mnup         mnup          1.00000        0.00000            1
+ kdcmoss      kdcmoss       1.00000        0.00000            1
+ kdcrawc      kdcrawc       1.00000        0.00000            1
+ kdcsoma      kdcsoma       1.00000        0.00000            1
+ kdcsompr     kdcsompr      1.00000        0.00000            1
+ kdcsomcr     kdcsomcr      1.00000        0.00000            1
+ imossc       imossc        1.00000        0.00000            1
+ ishlwc       ishlwc        1.00000        0.00000            1
+ ideepc       ideepc        1.00000        0.00000            1
+ iminec       iminec        1.00000        0.00000            1
+ isoln        isoln         1.00000        0.00000            1
+ iavln        iavln         1.00000        0.00000            1
+ turnon       turnon        1.00000        0.00000            1
+
+
+ Prior information:-
+
+    No prior information supplied
+
+
+ Observations:-
+
+ Observation name        Observation       Weight       Group
+  gppall0                 110.745          1.000       obsgroup    
+  nppall0                 55.3726          1.000       obsgroup    
+  vegcl0                  50.9058          1.000       obsgroup    
+  vegcw0                  87.3344          1.000       obsgroup    
+  vegcr0                  40.0896          1.000       obsgroup    
+  vegcsum0                178.330          1.000       obsgroup    
+  vegnl0                  2.11518          1.000       obsgroup    
+  vegnw0                  1.37827          1.000       obsgroup    
+  vegnr0                 0.843992          1.000       obsgroup    
+  vegnsum0                4.33744          1.000       obsgroup    
+  veglbln0               0.919085          1.000       obsgroup    
+  gppall1                 33.8556          1.000       obsgroup    
+  nppall1                 16.9278          1.000       obsgroup    
+  vegcl1                  23.0529          1.000       obsgroup    
+  vegcw1                  26.0324          1.000       obsgroup    
+  vegcr1                  12.2713          1.000       obsgroup    
+  vegcsum1                61.3566          1.000       obsgroup    
+  vegnl1                 0.761350          1.000       obsgroup    
+  vegnw1                 0.485333          1.000       obsgroup    
+  vegnr1                 0.253017          1.000       obsgroup    
+  vegnsum1                1.49970          1.000       obsgroup    
+  veglbln1               0.255931          1.000       obsgroup    
+  gppall2                 170.919          1.000       obsgroup    
+  nppall2                 85.4597          1.000       obsgroup    
+  vegcl2                  35.9430          1.000       obsgroup    
+  vegcw2                  1000.19          1.000       obsgroup    
+  vegcr2                  207.227          1.000       obsgroup    
+  vegcsum2                1243.36          1.000       obsgroup    
+  vegnl2                  1.10510          1.000       obsgroup    
+  vegnw2                  15.7845          1.000       obsgroup    
+  vegnr2                  4.18640          1.000       obsgroup    
+  vegnsum2                21.0760          1.000       obsgroup    
+  veglbln2               0.962529          1.000       obsgroup    
+  gppall3                 339.524          1.000       obsgroup    
+  nppall3                 169.762          1.000       obsgroup    
+  vegcl3                  27.1626          1.000       obsgroup    
+  vegcw3                  919.683          1.000       obsgroup    
+  vegcr3                  85.2161          1.000       obsgroup    
+  vegcsum3                1032.06          1.000       obsgroup    
+  vegnl3                 0.745926          1.000       obsgroup    
+  vegnw3                  11.8327          1.000       obsgroup    
+  vegnr3                  1.68745          1.000       obsgroup    
+  vegnsum3                14.2661          1.000       obsgroup    
+  veglbln3                2.08180          1.000       obsgroup    
+  gppall4                 580.956          1.000       obsgroup    
+  nppall4                 290.478          1.000       obsgroup    
+  vegcl4                  259.094          1.000       obsgroup    
+  vegcw4                  0.00000          1.000       obsgroup    
+  vegcr4                  452.050          1.000       obsgroup    
+  vegcsum4                711.144          1.000       obsgroup    
+  vegnl4                  10.2432          1.000       obsgroup    
+  vegnw4                  0.00000          1.000       obsgroup    
+  vegnr4                  8.61048          1.000       obsgroup    
+  vegnsum4                18.8536          1.000       obsgroup    
+  veglbln4                3.85053          1.000       obsgroup    
+  gppall5                 64.3039          1.000       obsgroup    
+  nppall5                 32.1520          1.000       obsgroup    
+  vegcl5                  6.83335          1.000       obsgroup    
+  vegcw5                  0.00000          1.000       obsgroup    
+  vegcr5                  44.0137          1.000       obsgroup    
+  vegcsum5                50.8470          1.000       obsgroup    
+  vegnl5                 0.491404          1.000       obsgroup    
+  vegnw5                  0.00000          1.000       obsgroup    
+  vegnr5                 0.854634          1.000       obsgroup    
+  vegnsum5                1.34604          1.000       obsgroup    
+  veglbln5               0.425569          1.000       obsgroup    
+  gppall6                 580.956          1.000       obsgroup    
+  nppall6                 290.478          1.000       obsgroup    
+  vegcl6                  259.094          1.000       obsgroup    
+  vegcw6                  0.00000          1.000       obsgroup    
+  vegcr6                  452.050          1.000       obsgroup    
+  vegcsum6                711.144          1.000       obsgroup    
+  vegnl6                  10.2432          1.000       obsgroup    
+  vegnw6                  0.00000          1.000       obsgroup    
+  vegnr6                  8.61048          1.000       obsgroup    
+  vegnsum6                18.8536          1.000       obsgroup    
+  veglbln6                3.85053          1.000       obsgroup    
+  gppall7                 8.40750          1.000       obsgroup    
+  nppall7                 4.20375          1.000       obsgroup    
+  vegcl7                  4.44362          1.000       obsgroup    
+  vegcw7                  0.00000          1.000       obsgroup    
+  vegcr7                  0.00000          1.000       obsgroup    
+  vegcsum7                4.44362          1.000       obsgroup    
+  vegnl7                 0.121987          1.000       obsgroup    
+  vegnw7                  0.00000          1.000       obsgroup    
+  vegnr7                  0.00000          1.000       obsgroup    
+  vegnsum7               0.121987          1.000       obsgroup    
+  veglbln7               5.770078E-02      1.000       obsgroup    
+  gppall8                 134.785          1.000       obsgroup    
+  nppall8                 67.3925          1.000       obsgroup    
+  vegcl8                  67.3925          1.000       obsgroup    
+  vegcw8                  0.00000          1.000       obsgroup    
+  vegcr8                  0.00000          1.000       obsgroup    
+  vegcsum8                67.3925          1.000       obsgroup    
+  vegnl8                  2.47816          1.000       obsgroup    
+  vegnw8                  0.00000          1.000       obsgroup    
+  vegnr8                  0.00000          1.000       obsgroup    
+  vegnsum8                2.47816          1.000       obsgroup    
+  veglbln8                1.23908          1.000       obsgroup    
+
+
+ Control settings:-
+
+    Initial lambda                                               :  5.0000    
+    Lambda adjustment factor                                     :  2.0000    
+    Sufficient new/old phi ratio per optimisation iteration      : 0.30000    
+    Limiting relative phi reduction between lambdas              : 3.00000E-02
+    Maximum trial lambdas per iteration                          :  10
+    Forgive model run failure during lamda testing               : no
+    Forgive model run failure during Jacobian runs               : no
+
+    Perform Broyden's update of Jacobian matrix                  : no
+    Undertake observation re-referencing                         : no
+
+    Maximum  factor  parameter change (factor-limited changes)   :  3.0000
+    Maximum relative parameter change (relative-limited changes) : na
+    Fraction of initial parameter values used in computing
+    change limit for near-zero parameters                        : 1.00000E-03
+    Allow bending of parameter upgrade vector                    : no
+    Allow parameters to stick to their bounds                    : no
+
+    Relative phi reduction below which to begin use of
+    central derivatives                                          : 0.10000             
+    Iteration at which to first consider derivatives switch      :   1
+
+    Relative phi reduction indicating convergence                : 0.10000E-01
+    Number of phi values required within this range              :   3
+    Maximum number of consecutive failures to lower phi          :   3
+    Minimal relative parameter change indicating convergence     : 0.10000E-01
+    Number of consecutive iterations with minimal param change   :   3
+    Maximum number of optimisation iterations                    :  30
+
+    Attempt automatic user intervention                          : no
+
+    Attempt reuse of parameter sensitivities                     : no
+
+    Scale parameters by their bounds                             : no
+
+
+ File saving options: -
+
+    Save best JCO file                                           : yes
+    Save multiple JCO files                                      : no
+    Save multiple REI files                                      : no
+    Save multiple PAR files                                      : no
+
+
+                             OPTIMISATION RECORD
+
+
+ INITIAL CONDITIONS: 
+    Sum of squared weighted residuals (ie phi) =  7.55203E+06
+
+       Current parameter values
+       cmax0            255.000    
+       nmax0            4.50000    
+       cfalll0         8.300000E-02
+       cfallw0         2.000000E-02
+       cfallr0         2.700000E-02
+       nfalll0         2.000000E-02
+       nfallw0         1.000000E-02
+       nfallr0         1.200000E-03
+       krb00           -2.30000    
+       krb10           -5.60000    
+       krb20           -3.20000    
+       cmax1            625.000    
+       nmax1            8.50000    
+       cfalll1         8.300000E-02
+       cfallw1         1.600000E-02
+       cfallr1         2.000000E-02
+       nfalll1         2.800000E-02
+       nfallw1         1.300000E-02
+       nfallr1         9.000000E-03
+       krb01           -3.90000    
+       krb11           -6.20000    
+       krb21           -2.05000    
+       cmax2            83.0000    
+       nmax2           0.810000    
+       cfalll2         8.300000E-02
+       cfallw2         1.200000E-02
+       cfallr2         6.800000E-02
+       nfalll2         2.800000E-02
+       nfallw2         5.000000E-03
+       nfallr2         1.600000E-02
+       krb02           -7.50000    
+       krb12           -3.90000    
+       krb22           -1.00000    
+       cmax3            23.9000    
+       nmax3           0.190000    
+       cfalll3         1.900000E-02
+       cfallw3         8.000000E-03
+       cfallr3         8.000000E-03
+       nfalll3         1.100000E-02
+       nfallw3         6.000000E-03
+       nfallr3         5.500000E-02
+       krb03           -3.30000    
+       krb13           -5.80000    
+       krb23           -2.50000    
+       cmax4            45.0000    
+       nmax4           0.230000    
+       cfalll4         8.300000E-02
+       cfallw4          0.00000    
+       cfallr4         8.300000E-02
+       nfalll4         4.200000E-02
+       nfallw4          0.00000    
+       nfallr4         4.200000E-02
+       krb04           -1.20000    
+       krb14            0.00000    
+       krb24           -3.30000    
+       cmax5            66.8000    
+       nmax5           0.760000    
+       cfalll5         8.300000E-02
+       cfallw5          0.00000    
+       cfallr5         8.300000E-02
+       nfalll5         4.200000E-02
+       nfallw5          0.00000    
+       nfallr5         4.200000E-02
+       krb05           -3.60000    
+       krb15            0.00000    
+       krb25           -1.80000    
+       cmax6            27.8000    
+       nmax6           0.290000    
+       cfalll6         8.300000E-02
+       cfallw6          0.00000    
+       cfallr6         8.300000E-02
+       nfalll6         4.200000E-02
+       nfallw6          0.00000    
+       nfallr6         4.200000E-02
+       krb06           -4.10000    
+       krb16            0.00000    
+       krb26           -1.60000    
+       cmax7            38.8000    
+       nmax7           0.200000    
+       cfalll7         3.700000E-02
+       cfallw7          0.00000    
+       cfallr7          0.00000    
+       nfalll7         1.500000E-02
+       nfallw7          0.00000    
+       nfallr7          0.00000    
+       krb07           -3.10000    
+       krb17            0.00000    
+       krb27            0.00000    
+       cmax8            86.1000    
+       nmax8           0.100000    
+       cfalll8         1.800000E-02
+       cfallw8          0.00000    
+       cfallr8          0.00000    
+       nfalll8         2.000000E-02
+       nfallw8          0.00000    
+       nfallr8          0.00000    
+       krb08           -3.90000    
+       krb18            0.00000    
+       krb28            0.00000    
+       mnup             2.65250    
+       kdcmoss         5.704200E-03
+       kdcrawc         9.070420E-02
+       kdcsoma         1.580460E-02
+       kdcsompr        2.080500E-03
+       kdcsomcr        1.080000E-05
+       imossc           100.000    
+       ishlwc           1783.00    
+       ideepc           5021.00    
+       iminec           9000.00    
+       isoln            363.000    
+       iavln           0.760000    
+       turnon           200.000    
+
+
+ OPTIMISATION ITERATION NO.        : 1
+    Model calls so far             : 1
+    Starting phi for this iteration:  7.55203E+06
+
+    Parameter "nmax0" has no effect on observations.
+    Parameter "nfalll0" has no effect on observations.
+    Parameter "nfallw0" has no effect on observations.
+    Parameter "nfallr0" has no effect on observations.
+    Parameter "nmax1" has no effect on observations.
+    Parameter "nfalll1" has no effect on observations.
+    Parameter "nfallw1" has no effect on observations.
+    Parameter "nfallr1" has no effect on observations.
+    Parameter "krb21" has no effect on observations.
+    Parameter "nmax2" has no effect on observations.
+    Parameter "nfalll2" has no effect on observations.
+    Parameter "nfallw2" has no effect on observations.
+    Parameter "nfallr2" has no effect on observations.
+    Parameter "krb22" has no effect on observations.
+    Parameter "nmax3" has no effect on observations.
+    Parameter "nfalll3" has no effect on observations.
+    Parameter "nfallw3" has no effect on observations.
+    Parameter "nfallr3" has no effect on observations.
+    Parameter "nmax4" has no effect on observations.
+    Parameter "nfalll4" has no effect on observations.
+    Parameter "nfallr4" has no effect on observations.
+    Parameter "krb04" has no effect on observations.
+    Parameter "nmax5" has no effect on observations.
+    Parameter "nfalll5" has no effect on observations.
+    Parameter "nfallr5" has no effect on observations.
+    Parameter "krb25" has no effect on observations.
+    Parameter "nmax6" has no effect on observations.
+    Parameter "nfalll6" has no effect on observations.
+    Parameter "nfallr6" has no effect on observations.
+    Parameter "krb26" has no effect on observations.
+    Parameter "nmax7" has no effect on observations.
+    Parameter "nfalll7" has no effect on observations.
+    Parameter "nmax8" has no effect on observations.
+    Parameter "nfalll8" has no effect on observations.
+    Parameter "mnup" has no effect on observations.
+    Parameter "kdcmoss" has no effect on observations.
+    Parameter "kdcrawc" has no effect on observations.
+    Parameter "kdcsoma" has no effect on observations.
+    Parameter "kdcsompr" has no effect on observations.
+    Parameter "kdcsomcr" has no effect on observations.
+    Parameter "imossc" has no effect on observations.
+    Parameter "ishlwc" has no effect on observations.
+    Parameter "ideepc" has no effect on observations.
+    Parameter "iminec" has no effect on observations.
+    Parameter "isoln" has no effect on observations.
+    Parameter "iavln" has no effect on observations.
+    Parameter "turnon" has no effect on observations.
+
+        Lambda =   5.0000     ----->
+           Phi =  6.54664E+06  (  0.867 of starting phi)
+
+        Lambda =   2.5000     ----->
+           Phi =  6.54664E+06  (  0.867 of starting phi)
+
+    No more lambdas: relative phi reduction between lambdas less than 0.0300
+    Lowest phi this iteration:  6.54664E+06
+
+       Current parameter values                 Previous parameter values
+       cmax0            267.523                 cmax0             255.000    
+       nmax0            4.50000                 nmax0             4.50000    
+       cfalll0         8.330000E-02             cfalll0          8.300000E-02
+       cfallw0         2.317559E-02             cfallw0          2.000000E-02
+       cfallr0         3.188638E-02             cfallr0          2.700000E-02
+       nfalll0         2.000000E-02             nfalll0          2.000000E-02
+       nfallw0         1.000000E-02             nfallw0          1.000000E-02
+       nfallr0         1.200000E-03             nfallr0          1.200000E-03
+       krb00           -2.30000                 krb00            -2.30000    
+       krb10           -5.58280                 krb10            -5.60000    
+       krb20           -3.19150                 krb20            -3.20000    
+       cmax1            635.417                 cmax1             625.000    
+       nmax1            8.50000                 nmax1             8.50000    
+       cfalll1         8.285712E-02             cfalll1          8.300000E-02
+       cfallw1         1.875620E-02             cfallw1          1.600000E-02
+       cfallr1         2.368074E-02             cfallr1          2.000000E-02
+       nfalll1         2.800000E-02             nfalll1          2.800000E-02
+       nfallw1         1.300000E-02             nfallw1          1.300000E-02
+       nfallr1         9.000000E-03             nfallr1          9.000000E-03
+       krb01           -3.86950                 krb01            -3.90000    
+       krb11           -6.18270                 krb11            -6.20000    
+       krb21           -2.05000                 krb21            -2.05000    
+       cmax2            106.213                 cmax2             83.0000    
+       nmax2           0.810000                 nmax2            0.810000    
+       cfalll2         8.330000E-02             cfalll2          8.300000E-02
+       cfallw2         7.679460E-03             cfallw2          1.200000E-02
+       cfallr2         4.680949E-02             cfallr2          6.800000E-02
+       nfalll2         2.800000E-02             nfalll2          2.800000E-02
+       nfallw2         5.000000E-03             nfallw2          5.000000E-03
+       nfallr2         1.600000E-02             nfallr2          1.600000E-02
+       krb02           -7.48830                 krb02            -7.50000    
+       krb12           -3.90480                 krb12            -3.90000    
+       krb22           -1.00000                 krb22            -1.00000    
+       cmax3            56.7380                 cmax3             23.9000    
+       nmax3           0.190000                 nmax3            0.190000    
+       cfalll3         2.095004E-02             cfalll3          1.900000E-02
+       cfallw3         2.666670E-03             cfallw3          8.000000E-03
+       cfallr3         1.249411E-02             cfallr3          8.000000E-03
+       nfalll3         1.100000E-02             nfalll3          1.100000E-02
+       nfallw3         6.000000E-03             nfallw3          6.000000E-03
+       nfallr3         5.500000E-02             nfallr3          5.500000E-02
+       krb03           -3.31970                 krb03            -3.30000    
+       krb13           -5.78940                 krb13            -5.80000    
+       krb23           -2.50000                 krb23            -2.50000    
+       cmax4            123.301                 cmax4             45.0000    
+       nmax4           0.230000                 nmax4            0.230000    
+       cfalll4         3.583752E-02             cfalll4          8.300000E-02
+       cfallw4          0.00000                 cfallw4           0.00000    
+       cfallr4         3.092448E-02             cfallr4          8.300000E-02
+       nfalll4         4.200000E-02             nfalll4          4.200000E-02
+       nfallw4          0.00000                 nfallw4           0.00000    
+       nfallr4         4.200000E-02             nfallr4          4.200000E-02
+       krb04           -1.20000                 krb04            -1.20000    
+       krb14            0.00000                 krb14             0.00000    
+       krb24           -3.30300                 krb24            -3.30000    
+       cmax5            75.4741                 cmax5             66.8000    
+       nmax5           0.760000                 nmax5            0.760000    
+       cfalll5         8.330000E-02             cfalll5          8.300000E-02
+       cfallw5          0.00000                 cfallw5           0.00000    
+       cfallr5         8.330000E-02             cfallr5          8.300000E-02
+       nfalll5         4.200000E-02             nfalll5          4.200000E-02
+       nfallw5          0.00000                 nfallw5           0.00000    
+       nfallr5         4.200000E-02             nfallr5          4.200000E-02
+       krb05           -3.59990                 krb05            -3.60000    
+       krb15            0.00000                 krb15             0.00000    
+       krb25           -1.80000                 krb25            -1.80000    
+       cmax6            26.8666                 cmax6             27.8000    
+       nmax6           0.290000                 nmax6            0.290000    
+       cfalll6         8.299606E-02             cfalll6          8.300000E-02
+       cfallw6          0.00000                 cfallw6           0.00000    
+       cfallr6         8.315145E-02             cfallr6          8.300000E-02
+       nfalll6         4.200000E-02             nfalll6          4.200000E-02
+       nfallw6          0.00000                 nfallw6           0.00000    
+       nfallr6         4.200000E-02             nfallr6          4.200000E-02
+       krb06           -4.10000                 krb06            -4.10000    
+       krb16            0.00000                 krb16             0.00000    
+       krb26           -1.60000                 krb26            -1.60000    
+       cmax7            29.1924                 cmax7             38.8000    
+       nmax7           0.200000                 nmax7            0.200000    
+       cfalll7         2.507800E-02             cfalll7          3.700000E-02
+       cfallw7          0.00000                 cfallw7           0.00000    
+       cfallr7          0.00000                 cfallr7           0.00000    
+       nfalll7         1.500000E-02             nfalll7          1.500000E-02
+       nfallw7          0.00000                 nfallw7           0.00000    
+       nfallr7          0.00000                 nfallr7           0.00000    
+       krb07           -3.11420                 krb07            -3.10000    
+       krb17            0.00000                 krb17             0.00000    
+       krb27            0.00000                 krb27             0.00000    
+       cmax8            138.264                 cmax8             86.1000    
+       nmax8           0.100000                 nmax8            0.100000    
+       cfalll8         2.173987E-02             cfalll8          1.800000E-02
+       cfallw8          0.00000                 cfallw8           0.00000    
+       cfallr8          0.00000                 cfallr8           0.00000    
+       nfalll8         2.000000E-02             nfalll8          2.000000E-02
+       nfallw8          0.00000                 nfallw8           0.00000    
+       nfallr8          0.00000                 nfallr8           0.00000    
+       krb08           -3.91010                 krb08            -3.90000    
+       krb18            0.00000                 krb18             0.00000    
+       krb28            0.00000                 krb28             0.00000    
+       mnup             2.65250                 mnup              2.65250    
+       kdcmoss         5.704200E-03             kdcmoss          5.704200E-03
+       kdcrawc         9.070420E-02             kdcrawc          9.070420E-02
+       kdcsoma         1.580460E-02             kdcsoma          1.580460E-02
+       kdcsompr        2.080500E-03             kdcsompr         2.080500E-03
+       kdcsomcr        1.080000E-05             kdcsomcr         1.080000E-05
+       imossc           100.000                 imossc            100.000    
+       ishlwc           1783.00                 ishlwc            1783.00    
+       ideepc           5021.00                 ideepc            5021.00    
+       iminec           9000.00                 iminec            9000.00    
+       isoln            363.000                 isoln             363.000    
+       iavln           0.760000                 iavln            0.760000    
+       turnon           200.000                 turnon            200.000    
+    Maximum   factor change:  3.000     ["cfallw3"]
+    Maximum relative change:  1.740     ["cmax4"]
+
+
+ OPTIMISATION ITERATION NO.        : 2
+    Model calls so far             : 94
+    Starting phi for this iteration:  6.54664E+06

@@ -1,0 +1,55 @@
+pcf
+* control data
+restart  estimation
+   12     5    12     0     1
+    2     1 double point   1   0   0
+  5.0   2.0   0.3  0.03    10
+  3.0   3.0 0.001  0
+  0.1
+   30  0.01     3     3  0.01     3
+    1     1     1
+* singular value decomposition
+1
+12 5E-7
+0
+* parameter groups
+mnup         relative 0.01  0.0  switch  2.0 parabolic
+kdcmoss      relative 0.01  0.0  switch  2.0 parabolic
+kdcrawc      relative 0.01  0.0  switch  2.0 parabolic
+kdcsoma      relative 0.01  0.0  switch  2.0 parabolic
+kdcsompr     relative 0.01  0.0  switch  2.0 parabolic
+kdcsomcr     relative 0.01  0.0  switch  2.0 parabolic
+imossc       relative 0.01  0.0  switch  2.0 parabolic
+ishlwc       relative 0.01  0.0  switch  2.0 parabolic
+ideepc       relative 0.01  0.0  switch  2.0 parabolic
+iminec       relative 0.01  0.0  switch  2.0 parabolic
+isoln        relative 0.01  0.0  switch  2.0 parabolic
+iavln        relative 0.01  0.0  switch  2.0 parabolic
+* parameter data
+mnup	log	factor	2.40006	0.1	10	mnup	1	0	1
+kdcmoss	log	factor	.0059417	0.0001	0.9	kdcmoss	1	0	1
+kdcrawc	log	factor	.0613301	0.0001	0.9	kdcrawc	1	0	1
+kdcsoma	log	factor	.0101197	0.0001	0.9	kdcsoma	1	0	1
+kdcsompr	log	factor	.0024345	0.0001	0.9	kdcsompr	1	0	1
+kdcsomcr	log	factor	1.00000E-5	0.0000001	0.9	kdcsomcr	1	0	1
+imossc	log	factor	400	50	5000	imossc	1	0	1
+ishlwc	log	factor	1000	10	4000	ishlwc	1	0	1
+ideepc	log	factor	3528.028341	10	4000	ideepc	1	0	1
+iminec	log	factor	28541.25681	100	300000	iminec	1	0	1
+isoln	log	factor	2348.156784	10	10000	isoln	1	0	1
+iavln	log	factor	2.335	0.01	20	iavln	1	0	1
+* observation groups
+obsgroup
+* observation data
+carbondeep              3213.02      10.0  obsgroup
+carbonshallow           3562.65      10.0  obsgroup
+carbonminsum            23913.3      1.0  obsgroup
+organicnsum             2121.38      1.0  obsgroup
+availablensum          0.527651      1000.0  obsgroup
+* model command line
+/home/vijay/Desktop/pest/soilpoolsonly/pest_batch_soilpools
+* model input/output
+/home/vijay/Desktop/pest/soilpoolsonly/calpar_soilpools.tpl /home/vijay/jul2015check/dvm-dos-tem/config/cmt_calparbgc.txt
+/home/vijay/Desktop/pest/soilpoolsonly/bgcsoil.tpl /home/vijay/jul2015check/dvm-dos-tem/config/cmt_bgcsoil.txt
+/home/vijay/Desktop/pest/soilpoolsonly/tem_soilpools.ins  /home/vijay/Desktop/pest/soilpoolsonly/TEM_Pest_Output_soilpools.txt
+* prior information

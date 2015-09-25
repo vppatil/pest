@@ -1,0 +1,127 @@
+              PARAMETER SENSITIVITIES: CASE ../allparallpftlog/temlog
+
+
+ OPTIMISATION ITERATION NO.  1 ----->
+ Parameter name    Group          Current value    Sensitivity
+   cmax3           cmax3            550.000          5.61510    
+   nmax3           nmax3            5.00000          16.4218    
+   cfalll3         cfalll3         5.000000E-02      12.7947    
+   cfallr3         cfallr3         4.000000E-02      18.3260    
+   nfalll3         nfalll3         4.000000E-02      4.84732    
+   nfallr3         nfallr3         2.000000E-02      9.36773    
+   krb03           krb03           -4.00000         0.442344    
+   krb23           krb23           -4.00000         1.850663E-03
+   cmax4           cmax4            50.4000          4.38813    
+   nmax4           nmax4            2.60000         0.714069    
+   cfalll4         cfalll4         8.300000E-02      18.4547    
+   cfallr4         cfallr4         5.100000E-02     0.369007    
+   nfalll4         nfalll4         2.300000E-02      4.09947    
+   nfallr4         nfallr4         1.500000E-02      7.92344    
+   krb04           krb04           -2.10000          0.00000    
+   krb24           krb24           -2.10000          0.00000    
+   cmax5           cmax5            90.1000          1.62754    
+   nmax5           nmax5            3.00000          0.00000    
+   cfalll5         cfalll5         9.000000E-03      2.27579    
+   nfalll5         nfalll5         2.000000E-03     0.591832    
+   krb05           krb05           -2.50000          0.00000    
+   cmax6           cmax6            70.7000          2.09470    
+   nmax6           nmax6            2.10000          0.00000    
+   cfalll6         cfalll6         1.100000E-02      13.1686    
+   nfalll6         nfalll6         2.000000E-03      5.36347    
+   krb06           krb06           -3.50000         0.647685    
+   mnup            mnup             2.40000          5.40475    
+   kdcmoss         kdcmoss         6.000000E-03      4.12811    
+   kdcrawc         kdcrawc         8.055000E-02      6.74456    
+   kdcsoma         kdcsoma         1.012000E-02      5.22400    
+   kdcsompr        kdcsompr        2.414600E-03      8.19774    
+   kdcsomcr        kdcsomcr        1.000000E-05      5.62617    
+   imossc          imossc           1059.18          5.50214    
+   ishlwc          ishlwc           767.162          21.5623    
+   ideepc          ideepc           3030.33          4.96979    
+   iminec          iminec           21681.8          8.11263    
+   isoln           isoln            2280.50          5.59819    
+   iavln           iavln           0.528000          0.00000    
+
+
+ OPTIMISATION ITERATION NO.  2 ----->
+ Parameter name    Group          Current value    Sensitivity
+   cmax3           cmax3            558.997          33.5359    
+   nmax3           nmax3            5.33672          18.4048    
+   cfalll3         cfalll3         5.081396E-02      19.6384    
+   cfallr3         cfallr3         4.088909E-02      24.2584    
+   nfalll3         nfalll3         3.676844E-02      28.4305    
+   nfallr3         nfallr3         2.184756E-02      20.7343    
+   krb03           krb03           -3.99646         1.358674E-03
+   krb23           krb23           -3.99804         1.973843E-03
+   cmax4           cmax4            51.3059          38.6204    
+   nmax4           nmax4            2.59955          15.6183    
+   cfalll4         cfalll4         8.282925E-02     0.138672    
+   cfallr4         cfallr4         5.112274E-02      30.9011    
+   nfalll4         nfalll4         2.364252E-02      33.4903    
+   nfallr4         nfallr4         1.519950E-02     0.631097    
+   krb04           krb04           -2.10000          0.00000    
+   krb24           krb24           -2.10000          0.00000    
+   cmax5           cmax5            89.4973          21.2725    
+   nmax5           nmax5            3.00000          0.00000    
+   cfalll5         cfalll5         9.518314E-03      10.1120    
+   nfalll5         nfalll5         2.003669E-03      38.1493    
+   krb05           krb05           -2.50000          0.00000    
+   cmax6           cmax6            70.1164          37.3751    
+   nmax6           nmax6            2.10000          0.00000    
+   cfalll6         cfalll6         1.043851E-02      7.34829    
+   nfalll6         nfalll6         1.993452E-03     5.707246E-04
+   krb06           krb06           -3.50075          4.73915    
+   mnup            mnup             2.52647         2.631458E-02
+   kdcmoss         kdcmoss         5.825299E-03      34.6005    
+   kdcrawc         kdcrawc         7.868869E-02      33.6782    
+   kdcsoma         kdcsoma         1.007600E-02      33.6055    
+   kdcsompr        kdcsompr        2.457497E-03      20.0559    
+   kdcsomcr        kdcsomcr        1.014540E-05     8.087127E-04
+   imossc          imossc           1034.67          44.4345    
+   ishlwc          ishlwc           783.590          31.5565    
+   ideepc          ideepc           2973.74          23.3376    
+   iminec          iminec           25592.7          24.0289    
+   isoln           isoln            2201.29          9.81626    
+   iavln           iavln           0.528000          0.00000    
+
+
+ OPTIMISATION ITERATION NO.  3 ----->
+ Parameter name    Group          Current value    Sensitivity
+   cmax3           cmax3            558.997          1.80358    
+   nmax3           nmax3            5.33672          3.12360    
+   cfalll3         cfalll3         5.081396E-02      1.60525    
+   cfallr3         cfallr3         4.088909E-02      4.52695    
+   nfalll3         nfalll3         3.676844E-02      6.97378    
+   nfallr3         nfallr3         2.184756E-02     0.591253    
+   krb03           krb03           -3.99646         1.371406E-03
+   krb23           krb23           -3.99804         0.571837    
+   cmax4           cmax4            51.3059          6.95007    
+   nmax4           nmax4            2.59955          1.13649    
+   cfalll4         cfalll4         8.282925E-02      21.4442    
+   cfallr4         cfallr4         5.112274E-02      4.28339    
+   nfalll4         nfalll4         2.364252E-02      6.61343    
+   nfallr4         nfallr4         1.519950E-02      2.27154    
+   krb04           krb04           -2.10000         4.527896E-16
+   krb24           krb24           -2.10000         4.527896E-16
+   cmax5           cmax5            89.4973          4.16180    
+   nmax5           nmax5            3.00000          0.00000    
+   cfalll5         cfalll5         9.518314E-03      1.53151    
+   nfalll5         nfalll5         2.003669E-03      9.53788    
+   krb05           krb05           -2.50000          0.00000    
+   cmax6           cmax6            70.1164          1.16291    
+   nmax6           nmax6            2.10000         2.189432E-15
+   cfalll6         cfalll6         1.043851E-02      6.30272    
+   nfalll6         nfalll6         1.993452E-03     1.208712E-04
+   krb06           krb06           -3.50075         0.195625    
+   mnup            mnup             2.52647         0.243927    
+   kdcmoss         kdcmoss         5.825299E-03      13.2384    
+   kdcrawc         kdcrawc         7.868869E-02      1.06998    
+   kdcsoma         kdcsoma         1.007600E-02     0.242200    
+   kdcsompr        kdcsompr        2.457497E-03      3.38179    
+   kdcsomcr        kdcsomcr        1.014540E-05      5.27132    
+   imossc          imossc           1034.67          11.9421    
+   ishlwc          ishlwc           783.590          3.13252    
+   ideepc          ideepc           2973.74          9.47484    
+   iminec          iminec           25592.7          1.42681    
+   isoln           isoln            2201.29          1.15555    
+   iavln           iavln           0.528000          0.00000    

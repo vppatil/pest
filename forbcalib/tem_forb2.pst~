@@ -1,0 +1,73 @@
+pcf
+* control data
+restart  estimation
+   20    11    20     0     1
+    1     1 double point   1   0   0
+  5.0   2.0   0.3  0.03    10
+  3.0   3.0 0.001  0
+  0.1
+   30  0.01     3     3  0.01     3
+    1     1     1
+* parameter groups
+cmax4        relative 0.01  0.0  switch  2.0 parabolic
+nmax4        relative 0.01  0.0  switch  2.0 parabolic
+cfalll4      relative 0.01  0.0  switch  2.0 parabolic
+cfallr4      relative 0.01  0.0  switch  2.0 parabolic
+nfalll4      relative 0.01  0.0  switch  2.0 parabolic
+nfallr4      relative 0.01  0.0  switch  2.0 parabolic
+krb04        relative 0.01  0.0  switch  2.0 parabolic
+krb24        relative 0.01  0.0  switch  2.0 parabolic
+mnup         relative 0.01  0.0  switch  2.0 parabolic
+kdcmoss      relative 0.01  0.0  switch  2.0 parabolic
+kdcrawc      relative 0.01  0.0  switch  2.0 parabolic
+kdcsoma      relative 0.01  0.0  switch  2.0 parabolic
+kdcsompr     relative 0.01  0.0  switch  2.0 parabolic
+kdcsomcr     relative 0.01  0.0  switch  2.0 parabolic
+imossc       relative 0.01  0.0  switch  2.0 parabolic
+ishlwc       relative 0.01  0.0  switch  2.0 parabolic
+ideepc       relative 0.01  0.0  switch  2.0 parabolic
+iminec       relative 0.01  0.0  switch  2.0 parabolic
+isoln        relative 0.01  0.0  switch  2.0 parabolic
+iavln        relative 0.01  0.0  switch  2.0 parabolic
+* parameter data
+cmax4        none relative    50.4000      -1.000000E+10   1.000000E+10 cmax4           1.0000        0.0000      1
+nmax4        none relative    2.60000      -1.000000E+10   1.000000E+10 nmax4           1.0000        0.0000      1
+cfalll4      none relative   8.300000E-02  -1.000000E+10   1.000000E+10 cfalll4         1.0000        0.0000      1
+cfallr4      none relative   8.300000E-02  -1.000000E+10   1.000000E+10 cfallr4         1.0000        0.0000      1
+nfalll4      none relative   2.200000E-02  -1.000000E+10   1.000000E+10 nfalll4         1.0000        0.0000      1
+nfallr4      none relative   2.00000E-02  -1.000000E+10   1.000000E+10 nfallr4         1.0000        0.0000      1
+krb04        none relative   -3.30000      -1.000000E+10   1.000000E+10 krb04           1.0000        0.0000      1
+krb24        none relative   -2.10000      -1.000000E+10   1.000000E+10 krb24           1.0000        0.0000      1
+mnup         none relative    3.0          -1.000000E+10   1.000000E+10 mnup            1.0000        0.0000      1
+kdcmoss      none relative   5.920000E-03  -1.000000E+10   1.000000E+10 kdcmoss         1.0000        0.0000      1
+kdcrawc      none relative   7.640000E-02  -1.000000E+10   1.000000E+10 kdcrawc         1.0000        0.0000      1
+kdcsoma      none relative   9.720000E-03  -1.000000E+10   1.000000E+10 kdcsoma         1.0000        0.0000      1
+kdcsompr     none relative   2.320000E-03  -1.000000E+10   1.000000E+10 kdcsompr        1.0000        0.0000      1
+kdcsomcr     none relative   9.900000E-06  -1.000000E+10   1.000000E+10 kdcsomcr        1.0000        0.0000      1
+imossc       none relative    1000         -1.000000E+10   1.000000E+10 imossc          1.0000        0.0000      1
+ishlwc       none relative    6607.5       -1.000000E+10   1.000000E+10 ishlwc          1.0000        0.0000      1
+ideepc       none relative    10529.5      -1.000000E+10   1.000000E+10 ideepc          1.0000        0.0000      1
+iminec       none relative    276758.5     -1.000000E+10   1.000000E+10 iminec          1.0000        0.0000      1
+isoln        none relative    8444.2       -1.000000E+10   1.000000E+10 isoln           1.0000        0.0000      1
+iavln        none relative    1.71         -1.000000E+10   1.000000E+10 iavln           1.0000        0.0000      1
+* observation groups
+obsgroup
+* observation data
+gppall4                 34.1620      1.0  obsgroup
+nppall4                 107.148      1.0  obsgroup
+vegcl4                  23.7904      1.0  obsgroup
+vegcw4                  0.00000      1.0  obsgroup
+vegcr4                  153.234      1.0  obsgroup
+vegcsum4                177.024      1.0  obsgroup
+vegnl4                  1.71083      1.0  obsgroup
+vegnw4                  0.00000      1.0  obsgroup
+vegnr4                  3.22598      1.0  obsgroup
+vegnsum4                4.93681      1.0  obsgroup
+veglbln4               0.987361      1.0  obsgroup
+* model command line
+/home/vijay/Desktop/pest/forbcalib/pest_batch_forb
+* model input/output
+/home/vijay/Desktop/pest/forbcalib/calpar_forb.tpl /home/vijay/jul2015check/dvm-dos-tem/config/cmt_calparbgc.txt
+/home/vijay/Desktop/pest/forbcalib/bgcsoil.tpl /home/vijay/jul2015check/dvm-dos-tem/config/cmt_bgcsoil.txt
+/home/vijay/Desktop/pest/forbcalib/tem_forb.ins  /home/vijay/Desktop/pest/forbcalib/TEM_Pest_Output_forb.txt
+* prior information

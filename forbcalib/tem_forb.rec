@@ -1,0 +1,445 @@
+     PEST RUN RECORD: CASE /home/vijay/Desktop/pest/forbcalib/tem_forb
+
+
+ PEST Version: 13.4
+
+
+ PEST run mode:-
+
+    Parameter estimation mode
+
+
+ Case dimensions:-
+
+    Number of parameters                           :    20
+    Number of adjustable parameters                :    20
+    Number of parameter groups                     :    20
+    Number of observations                         :    11
+    Number of prior estimates                      :     0
+
+
+ Model command line(s):-
+
+    /home/vijay/Desktop/pest/forbcalib/pest_batch_forb
+
+
+ Jacobian command line:-
+
+    na
+
+
+ Model interface files:-
+
+    Templates:
+       /home/vijay/Desktop/pest/forbcalib/calpar_forb.tpl
+       /home/vijay/Desktop/pest/forbcalib/bgcsoil.tpl
+    for model input files:
+       /home/vijay/jul2015check/dvm-dos-tem/config/cmt_calparbgc.txt
+       /home/vijay/jul2015check/dvm-dos-tem/config/cmt_bgcsoil.txt
+
+    (Parameter values written using double precision protocol.)
+    (Decimal point always included.)
+
+    Instruction files:
+       /home/vijay/Desktop/pest/forbcalib/tem_forb.ins
+    for reading model output files:
+       /home/vijay/Desktop/pest/forbcalib/TEM_Pest_Output_forb.txt
+
+
+ PEST-to-model message file:-
+
+    na
+
+
+ Singular value decomposition:-
+
+    Perform SVD on XtQX or Q^(1/2)X               : XtQX
+    Max. number of singular values to employ      : 20
+    Ratio of lowest/highest singular value        :  5.000000E-07
+    Record eigenvectors in SVD file               : no
+
+
+ Derivatives calculation:-
+
+ Param        Increment   Increment   Increment   Forward or   Multiplier  Method
+ group        type                    low bound   central      (central)   (central)
+ cmax4        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax4        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll4      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr4      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll4      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr4      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb04        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb24        relative    1.0000E-02   none         switch       2.000     parabolic
+ mnup         relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcmoss      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcrawc      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsoma      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsompr     relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsomcr     relative    1.0000E-02   none         switch       2.000     parabolic
+ imossc       relative    1.0000E-02   none         switch       2.000     parabolic
+ ishlwc       relative    1.0000E-02   none         switch       2.000     parabolic
+ ideepc       relative    1.0000E-02   none         switch       2.000     parabolic
+ iminec       relative    1.0000E-02   none         switch       2.000     parabolic
+ isoln        relative    1.0000E-02   none         switch       2.000     parabolic
+ iavln        relative    1.0000E-02   none         switch       2.000     parabolic
+
+
+ Parameter definitions:-
+
+ Name         Trans-            Change       Initial        Lower          Upper
+              formation         limit        value          bound          bound
+ cmax4        none              relative    50.4000      -1.000000E+10   1.000000E+10
+ nmax4        none              relative    2.60000      -1.000000E+10   1.000000E+10
+ cfalll4      none              relative   8.300000E-02  -1.000000E+10   1.000000E+10
+ cfallr4      none              relative   8.300000E-02  -1.000000E+10   1.000000E+10
+ nfalll4      none              relative   2.200000E-02  -1.000000E+10   1.000000E+10
+ nfallr4      none              relative   2.000000E-02  -1.000000E+10   1.000000E+10
+ krb04        none              relative   -3.30000      -1.000000E+10   1.000000E+10
+ krb24        none              relative   -2.10000      -1.000000E+10   1.000000E+10
+ mnup         none              relative    3.00000      -1.000000E+10   1.000000E+10
+ kdcmoss      none              relative   5.920000E-03  -1.000000E+10   1.000000E+10
+ kdcrawc      none              relative   7.640000E-02  -1.000000E+10   1.000000E+10
+ kdcsoma      none              relative   9.720000E-03  -1.000000E+10   1.000000E+10
+ kdcsompr     none              relative   2.320000E-03  -1.000000E+10   1.000000E+10
+ kdcsomcr     none              relative   9.900000E-06  -1.000000E+10   1.000000E+10
+ imossc       none              relative    1000.00      -1.000000E+10   1.000000E+10
+ ishlwc       none              relative    6607.50      -1.000000E+10   1.000000E+10
+ ideepc       none              relative    10529.5      -1.000000E+10   1.000000E+10
+ iminec       none              relative    276758.      -1.000000E+10   1.000000E+10
+ isoln        none              relative    8444.20      -1.000000E+10   1.000000E+10
+ iavln        none              relative    1.71000      -1.000000E+10   1.000000E+10
+
+ Name         Group          Scale         Offset        Model command number
+ cmax4        cmax4         1.00000        0.00000            1
+ nmax4        nmax4         1.00000        0.00000            1
+ cfalll4      cfalll4       1.00000        0.00000            1
+ cfallr4      cfallr4       1.00000        0.00000            1
+ nfalll4      nfalll4       1.00000        0.00000            1
+ nfallr4      nfallr4       1.00000        0.00000            1
+ krb04        krb04         1.00000        0.00000            1
+ krb24        krb24         1.00000        0.00000            1
+ mnup         mnup          1.00000        0.00000            1
+ kdcmoss      kdcmoss       1.00000        0.00000            1
+ kdcrawc      kdcrawc       1.00000        0.00000            1
+ kdcsoma      kdcsoma       1.00000        0.00000            1
+ kdcsompr     kdcsompr      1.00000        0.00000            1
+ kdcsomcr     kdcsomcr      1.00000        0.00000            1
+ imossc       imossc        1.00000        0.00000            1
+ ishlwc       ishlwc        1.00000        0.00000            1
+ ideepc       ideepc        1.00000        0.00000            1
+ iminec       iminec        1.00000        0.00000            1
+ isoln        isoln         1.00000        0.00000            1
+ iavln        iavln         1.00000        0.00000            1
+
+
+ Prior information:-
+
+    No prior information supplied
+
+
+ Observations:-
+
+ Observation name        Observation       Weight       Group
+  gppall4                 34.1620          1.000       obsgroup    
+  nppall4                 107.148          1.000       obsgroup    
+  vegcl4                  23.7904          1.000       obsgroup    
+  vegcw4                  0.00000          1.000       obsgroup    
+  vegcr4                  153.234          1.000       obsgroup    
+  vegcsum4                177.024          1.000       obsgroup    
+  vegnl4                  1.71083          1.000       obsgroup    
+  vegnw4                  0.00000          1.000       obsgroup    
+  vegnr4                  3.22598          1.000       obsgroup    
+  vegnsum4                4.93681          1.000       obsgroup    
+  veglbln4               0.987361          1.000       obsgroup    
+
+
+ Control settings:-
+
+    Initial lambda                                               :  5.0000    
+    Lambda adjustment factor                                     :  2.0000    
+    Sufficient new/old phi ratio per optimisation iteration      : 0.30000    
+    Limiting relative phi reduction between lambdas              : 3.00000E-02
+    Maximum trial lambdas per iteration                          :  10
+    Forgive model run failure during lamda testing               : no
+    Forgive model run failure during Jacobian runs               : no
+
+    Perform Broyden's update of Jacobian matrix                  : no
+    Undertake observation re-referencing                         : no
+
+    Maximum  factor  parameter change (factor-limited changes)   : na
+    Maximum relative parameter change (relative-limited changes) :  3.0000
+    Fraction of initial parameter values used in computing
+    change limit for near-zero parameters                        : 1.00000E-03
+    Allow bending of parameter upgrade vector                    : no
+    Allow parameters to stick to their bounds                    : no
+
+    Relative phi reduction below which to begin use of
+    central derivatives                                          : 0.10000             
+    Iteration at which to first consider derivatives switch      :   1
+
+    Relative phi reduction indicating convergence                : 0.10000E-01
+    Number of phi values required within this range              :   3
+    Maximum number of consecutive failures to lower phi          :   3
+    Minimal relative parameter change indicating convergence     : 0.10000E-01
+    Number of consecutive iterations with minimal param change   :   3
+    Maximum number of optimisation iterations                    :  30
+
+    Attempt automatic user intervention                          : no
+
+    Attempt reuse of parameter sensitivities                     : no
+
+    Scale parameters by their bounds                             : no
+
+
+ File saving options: -
+
+    Save best JCO file                                           : yes
+    Save multiple JCO files                                      : no
+    Save multiple REI files                                      : no
+    Save multiple PAR files                                      : no
+
+
+                             OPTIMISATION RECORD
+
+
+ INITIAL CONDITIONS: 
+    Sum of squared weighted residuals (ie phi) =   52564.    
+
+       Current parameter values
+       cmax4            50.4000    
+       nmax4            2.60000    
+       cfalll4         8.300000E-02
+       cfallr4         8.300000E-02
+       nfalll4         2.200000E-02
+       nfallr4         2.000000E-02
+       krb04           -3.30000    
+       krb24           -2.10000    
+       mnup             3.00000    
+       kdcmoss         5.920000E-03
+       kdcrawc         7.640000E-02
+       kdcsoma         9.720000E-03
+       kdcsompr        2.320000E-03
+       kdcsomcr        9.900000E-06
+       imossc           1000.00    
+       ishlwc           6607.50    
+       ideepc           10529.5    
+       iminec           276758.    
+       isoln            8444.20    
+       iavln            1.71000    
+
+
+ OPTIMISATION ITERATION NO.        : 1
+    Model calls so far             : 1
+    Starting phi for this iteration:   52564.    
+
+    Parameter "krb24" has no effect on observations.
+    Parameter "iavln" has no effect on observations.
+
+        Lambda =   5.0000     ----->
+           Phi =   68055.      (  1.295 times starting phi)
+
+        Lambda =   2.5000     ----->
+           Phi =   68055.      (  1.295 times starting phi)
+
+    No more lambdas: relative phi reduction between lambdas less than 0.0300
+    Lowest phi this iteration:   68055.    
+    Relative phi reduction between optimisation iterations less than 0.1000
+    Switch to central derivatives calculation
+    (restart from best parameters so far - these achieved at iteration    0)
+
+       Current parameter values
+       cmax4            50.4000    
+       nmax4            2.60000    
+       cfalll4         8.300000E-02
+       cfallr4         8.300000E-02
+       nfalll4         2.200000E-02
+       nfallr4         2.000000E-02
+       krb04           -3.30000    
+       krb24           -2.10000    
+       mnup             3.00000    
+       kdcmoss         5.920000E-03
+       kdcrawc         7.640000E-02
+       kdcsoma         9.720000E-03
+       kdcsompr        2.320000E-03
+       kdcsomcr        9.900000E-06
+       imossc           1000.00    
+       ishlwc           6607.50    
+       ideepc           10529.5    
+       iminec           276758.    
+       isoln            8444.20    
+       iavln            1.71000    
+
+
+ OPTIMISATION ITERATION NO.        : 2
+    Model calls so far             : 23
+    Starting phi for this iteration:   52564.    
+
+    Parameter "iavln" has no effect on observations.
+
+        Lambda =   5.0000     ----->
+           Phi =   53645.      (  1.021 times starting phi)
+
+        Lambda =   2.5000     ----->
+           Phi =   53645.      (  1.021 times starting phi)
+
+    No more lambdas: relative phi reduction between lambdas less than 0.0300
+    Lowest phi this iteration:   53645.    
+
+       Current parameter values                 Previous parameter values
+       cmax4            50.4000                 cmax4             50.4000    
+       nmax4            2.60000                 nmax4             2.60000    
+       cfalll4         8.508113E-02             cfalll4          8.300000E-02
+       cfallr4         8.091188E-02             cfallr4          8.300000E-02
+       nfalll4         2.200290E-02             nfalll4          2.200000E-02
+       nfallr4         2.000304E-02             nfallr4          2.000000E-02
+       krb04           -3.30000                 krb04            -3.30000    
+       krb24           -2.10000                 krb24            -2.10000    
+       mnup             3.00000                 mnup              3.00000    
+       kdcmoss         5.893530E-03             kdcmoss          5.920000E-03
+       kdcrawc         7.639892E-02             kdcrawc          7.640000E-02
+       kdcsoma         9.718944E-03             kdcsoma          9.720000E-03
+       kdcsompr        2.386889E-03             kdcsompr         2.320000E-03
+       kdcsomcr       -1.980000E-05             kdcsomcr         9.900000E-06
+       imossc           1000.00                 imossc            1000.00    
+       ishlwc           6607.50                 ishlwc            6607.50    
+       ideepc           10529.5                 ideepc            10529.5    
+       iminec           276758.                 iminec            276758.    
+       isoln            8444.20                 isoln             8444.20    
+       iavln            1.71000                 iavln             1.71000    
+    Maximum relative change:  3.000     ["kdcsomcr"]
+
+
+ OPTIMISATION ITERATION NO.        : 3
+    Model calls so far             : 65
+    Starting phi for this iteration:   53645.    
+
+    Parameter "iavln" has no effect on observations.
+
+        Lambda =   2.5000     ----->
+           Phi =   67611.      (  1.260 times starting phi)
+
+        Lambda =   1.2500     ----->
+           Phi =   67611.      (  1.260 times starting phi)
+
+    No more lambdas: relative phi reduction between lambdas less than 0.0300
+    Lowest phi this iteration:   67611.    
+
+       Current parameter values                 Previous parameter values
+       cmax4            50.4000                 cmax4             50.4000    
+       nmax4            2.60000                 nmax4             2.60000    
+       cfalll4         8.508113E-02             cfalll4          8.508113E-02
+       cfallr4         8.091189E-02             cfallr4          8.091188E-02
+       nfalll4         2.200292E-02             nfalll4          2.200290E-02
+       nfallr4         2.000306E-02             nfallr4          2.000304E-02
+       krb04           -3.30000                 krb04            -3.30000    
+       krb24           -2.10000                 krb24            -2.10000    
+       mnup             3.00000                 mnup              3.00000    
+       kdcmoss         5.854750E-03             kdcmoss          5.893530E-03
+       kdcrawc         7.639593E-02             kdcrawc          7.639892E-02
+       kdcsoma         9.718913E-03             kdcsoma          9.718944E-03
+       kdcsompr        2.482672E-03             kdcsompr         2.386889E-03
+       kdcsomcr        9.900000E-06             kdcsomcr        -1.980000E-05
+       imossc           1000.00                 imossc            1000.00    
+       ishlwc           6607.50                 ishlwc            6607.50    
+       ideepc           10529.5                 ideepc            10529.5    
+       iminec           276758.                 iminec            276758.    
+       isoln            8444.20                 isoln             8444.20    
+       iavln            1.71000                 iavln             1.71000    
+    Maximum relative change:  1.500     ["kdcsomcr"]
+
+    Optimisation complete:   3 optimisation iterations have elapsed since lowest
+                           phi was achieved.
+    Total model calls:    107
+
+    The model has been run one final time using best parameters. 
+    Thus all model input files contain best parameter values, and model 
+    output files contain model results based on these parameters.
+
+
+                             OPTIMISATION RESULTS
+
+ Covariance matrix and parameter confidence intervals cannot be determined:-
+ Some form or regularisation was implemented so these are not applicable.
+
+
+ Parameters ----->
+
+ Parameter      Estimated value
+  cmax4           50.4000    
+  nmax4           2.60000    
+  cfalll4        8.300000E-02
+  cfallr4        8.300000E-02
+  nfalll4        2.200000E-02
+  nfallr4        2.000000E-02
+  krb04          -3.30000    
+  krb24          -2.10000    
+  mnup            3.00000    
+  kdcmoss        5.920000E-03
+  kdcrawc        7.640000E-02
+  kdcsoma        9.720000E-03
+  kdcsompr       2.320000E-03
+  kdcsomcr       9.900000E-06
+  imossc          1000.00    
+  ishlwc          6607.50    
+  ideepc          10529.5    
+  iminec          276758.    
+  isoln           8444.20    
+  iavln           1.71000    
+
+ See file /home/vijay/Desktop/pest/forbcalib/tem_forb.sen for parameter sensitivities.
+
+
+ Observations ----->
+
+ Observation            Measured       Calculated     Residual       Weight     Group
+                        value          value
+ gppall4                34.1620        31.2198        2.94223        1.000      obsgroup    
+ nppall4                107.148        20.6344        86.5136        1.000      obsgroup    
+ vegcl4                 23.7904        10.3395        13.4509        1.000      obsgroup    
+ vegcw4                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegcr4                 153.234        10.3395        142.894        1.000      obsgroup    
+ vegcsum4               177.024        20.6791        156.345        1.000      obsgroup    
+ vegnl4                 1.71083       0.404520        1.30631        1.000      obsgroup    
+ vegnw4                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegnr4                 3.22598       0.404520        2.82146        1.000      obsgroup    
+ vegnsum4               4.93681       0.809040        4.12777        1.000      obsgroup    
+ veglbln4              0.987361       0.300170       0.687191        1.000      obsgroup    
+
+ See file /home/vijay/Desktop/pest/forbcalib/tem_forb.res for more details of residuals in graph-ready format.
+
+ See file /home/vijay/Desktop/pest/forbcalib/tem_forb.seo for composite observation sensitivities.
+
+
+ Objective function ----->
+
+   Sum of squared weighted residuals (ie phi)                =  5.2564E+04
+
+
+ Correlation Coefficient ----->
+
+   Correlation coefficient                                   =  0.59485    
+
+
+ Analysis of residuals ----->
+
+   All residuals:-
+      Number of residuals with non-zero weight                       =    11
+      Mean value of non-zero weighted residuals                      =   37.37    
+      Maximum weighted residual [observation "vegcsum4"]             =   156.3    
+      Minimum weighted residual [observation "vegcw4"]               =   0.000    
+      Standard variance of weighted residuals                        =   4779.    
+      Standard error of weighted residuals                           =   69.13    
+
+      Note: the above variance was obtained by dividing the objective 
+      function by the number of system degrees of freedom (ie. number of 
+      observations with non-zero weight plus number of prior information 
+      articles with non-zero weight minus the number of adjustable parameters.)
+      If the degrees of freedom is negative the divisor becomes 
+      the number of observations with non-zero weight plus the number of 
+      prior information items with non-zero weight.
+
+
+ Covariance and other statistical matrices cannot be determined:-
+ Some form or regularisation was implemented so these are not applicable.
+

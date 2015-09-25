@@ -1,0 +1,6 @@
+Variable,Value
+CarbonDeep,3589.67102813721
+CarbonShallow,1896.29373526573
+CarbonMineralSum,25966.6585350037
+OrganicNitrogenSum,1721.24646593351
+AvailableNitrogenSum,0.0248646021768764

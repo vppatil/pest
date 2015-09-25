@@ -1,0 +1,729 @@
+   PEST RUN RECORD: CASE /home/vijay/Desktop/pest/allparallpftlog/temlog
+
+
+ PEST Version: 13.4
+
+
+ PEST run mode:-
+
+    Parameter estimation mode
+
+
+ Case dimensions:-
+
+    Number of parameters                           :    44
+    Number of adjustable parameters                :    38
+    Number of parameter groups                     :    44
+    Number of observations                         :    49
+    Number of prior estimates                      :     0
+
+
+ Model command line(s):-
+
+    /home/vijay/Desktop/pest/allparallpftlog/pest_batch_allparlog
+
+
+ Jacobian command line:-
+
+    na
+
+
+ Model interface files:-
+
+    Templates:
+       /home/vijay/Desktop/pest/allparallpftlog/calpar_allpftlog.tpl
+       /home/vijay/Desktop/pest/allparallpftlog/bgcsoil.tpl
+    for model input files:
+       /home/vijay/jul2015check/dvm-dos-tem/config/cmt_calparbgc.txt
+       /home/vijay/jul2015check/dvm-dos-tem/config/cmt_bgcsoil.txt
+
+    (Parameter values written using double precision protocol.)
+    (Decimal point always included.)
+
+    Instruction files:
+       /home/vijay/Desktop/pest/allparallpftlog/tem.ins
+    for reading model output files:
+       /home/vijay/Desktop/pest/allparallpftlog/TEM_Pest_Output_log.txt
+
+
+ PEST-to-model message file:-
+
+    na
+
+
+ Singular value decomposition:-
+
+    Perform SVD on XtQX or Q^(1/2)X               : XtQX
+    Max. number of singular values to employ      : 20
+    Ratio of lowest/highest singular value        :  5.000000E-07
+    Record eigenvectors in SVD file               : no
+
+
+ Derivatives calculation:-
+
+ Param        Increment   Increment   Increment   Forward or   Multiplier  Method
+ group        type                    low bound   central      (central)   (central)
+ cmax3        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax3        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll3      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr3      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll3      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr3      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb03        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb23        relative    1.0000E-02   none         switch       2.000     parabolic
+ cmax4        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax4        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll4      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr4      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll4      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr4      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb04        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb24        relative    1.0000E-02   none         switch       2.000     parabolic
+ cmax5        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax5        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll5      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr5      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll5      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr5      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb05        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb25        relative    1.0000E-02   none         switch       2.000     parabolic
+ cmax6        relative    1.0000E-02   none         switch       2.000     parabolic
+ nmax6        relative    1.0000E-02   none         switch       2.000     parabolic
+ cfalll6      relative    1.0000E-02   none         switch       2.000     parabolic
+ cfallr6      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfalll6      relative    1.0000E-02   none         switch       2.000     parabolic
+ nfallr6      relative    1.0000E-02   none         switch       2.000     parabolic
+ krb06        relative    1.0000E-02   none         switch       2.000     parabolic
+ krb26        relative    1.0000E-02   none         switch       2.000     parabolic
+ mnup         relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcmoss      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcrawc      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsoma      relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsompr     relative    1.0000E-02   none         switch       2.000     parabolic
+ kdcsomcr     relative    1.0000E-02   none         switch       2.000     parabolic
+ imossc       relative    1.0000E-02   none         switch       2.000     parabolic
+ ishlwc       relative    1.0000E-02   none         switch       2.000     parabolic
+ ideepc       relative    1.0000E-02   none         switch       2.000     parabolic
+ iminec       relative    1.0000E-02   none         switch       2.000     parabolic
+ isoln        relative    1.0000E-02   none         switch       2.000     parabolic
+ iavln        relative    1.0000E-02   none         switch       2.000     parabolic
+
+
+ Parameter definitions:-
+
+ Name         Trans-            Change       Initial        Lower          Upper
+              formation         limit        value          bound          bound
+ cmax3        log               factor      150.600        100.000        1000.00    
+ nmax3        log               factor      6.50000       0.500000        100.000    
+ cfalll3      log               factor     8.300000E-02   5.000000E-03   8.333300E-02
+ cfallr3      log               factor     8.300000E-02   5.000000E-03   8.333300E-02
+ nfalll3      log               factor     2.500000E-02   5.000000E-03   8.333300E-02
+ nfallr3      log               factor     2.150000E-02   5.000000E-03   8.333300E-02
+ krb03        none              factor     -3.00000       -10.0000      -1.000000E-03
+ krb23        none              factor     -2.10000       -10.0000      -1.000000E-03
+ cmax4        log               factor      50.4000        10.0000        1000.00    
+ nmax4        log               factor      2.60000       0.500000        100.000    
+ cfalll4      log               factor     8.300000E-02   5.000000E-03   8.333300E-02
+ cfallr4      log               factor     5.100000E-02   5.000000E-03   8.333300E-02
+ nfalll4      log               factor     2.300000E-02   5.000000E-03   8.333300E-02
+ nfallr4      log               factor     1.500000E-02   5.000000E-03   8.333300E-02
+ krb04        none              factor     -2.10000       -10.0000      -1.000000E-03
+ krb24        none              factor     -2.10000       -10.0000      -1.000000E-03
+ cmax5        log               factor      90.1000        10.0000        1000.00    
+ nmax5        log               factor      3.00000       0.500000        100.000    
+ cfalll5      log               factor     9.000000E-03   1.000000E-03   8.333300E-02
+ cfallr5      fixed               na        0.00000          na             na
+ nfalll5      log               factor     2.000000E-03   1.000000E-03   8.333300E-02
+ nfallr5      fixed               na        0.00000          na             na
+ krb05        none              factor     -2.50000       -10.0000      -1.000000E-03
+ krb25        fixed               na        0.00000          na             na
+ cmax6        log               factor      70.7000        10.0000        1000.00    
+ nmax6        log               factor      2.10000       0.500000        100.000    
+ cfalll6      log               factor     1.100000E-02   1.000000E-03   8.333300E-02
+ cfallr6      fixed               na        0.00000          na             na
+ nfalll6      log               factor     2.000000E-03   1.000000E-03   8.333300E-02
+ nfallr6      fixed               na        0.00000          na             na
+ krb06        none              factor     -3.50000       -10.0000      -1.000000E-03
+ krb26        fixed               na        0.00000          na             na
+ mnup         log               factor      8.65000       0.100000        10.0000    
+ kdcmoss      log               factor     9.000000E-03   1.000000E-04   0.900000    
+ kdcrawc      log               factor     7.000000E-02   1.000000E-04   0.900000    
+ kdcsoma      log               factor     9.700000E-03   1.000000E-04   0.900000    
+ kdcsompr     log               factor     1.000000E-03   1.000000E-04   0.900000    
+ kdcsomcr     log               factor     8.000000E-05   1.000000E-07   0.900000    
+ imossc       none              relative   0.100000        0.00000        5000.00    
+ ishlwc       log               factor      10000.0        1000.00        20000.0    
+ ideepc       log               factor      20000.0        1000.00        30000.0    
+ iminec       log               factor      24000.0        10000.0        200000.    
+ isoln        log               factor      2220.20        10.0000        10000.0    
+ iavln        log               factor      1.71000       1.000000E-02    10.0000    
+
+ Name         Group          Scale         Offset        Model command number
+ cmax3        cmax3         1.00000        0.00000            1
+ nmax3        nmax3         1.00000        0.00000            1
+ cfalll3      cfalll3       1.00000        0.00000            1
+ cfallr3      cfallr3       1.00000        0.00000            1
+ nfalll3      nfalll3       1.00000        0.00000            1
+ nfallr3      nfallr3       1.00000        0.00000            1
+ krb03        krb03         1.00000        0.00000            1
+ krb23        krb23         1.00000        0.00000            1
+ cmax4        cmax4         1.00000        0.00000            1
+ nmax4        nmax4         1.00000        0.00000            1
+ cfalll4      cfalll4       1.00000        0.00000            1
+ cfallr4      cfallr4       1.00000        0.00000            1
+ nfalll4      nfalll4       1.00000        0.00000            1
+ nfallr4      nfallr4       1.00000        0.00000            1
+ krb04        krb04         1.00000        0.00000            1
+ krb24        krb24         1.00000        0.00000            1
+ cmax5        cmax5         1.00000        0.00000            1
+ nmax5        nmax5         1.00000        0.00000            1
+ cfalll5      cfalll5       1.00000        0.00000            1
+ cfallr5      cfallr5       1.00000        0.00000            1
+ nfalll5      nfalll5       1.00000        0.00000            1
+ nfallr5      nfallr5       1.00000        0.00000            1
+ krb05        krb05         1.00000        0.00000            1
+ krb25        krb25         1.00000        0.00000            1
+ cmax6        cmax6         1.00000        0.00000            1
+ nmax6        nmax6         1.00000        0.00000            1
+ cfalll6      cfalll6       1.00000        0.00000            1
+ cfallr6      cfallr6       1.00000        0.00000            1
+ nfalll6      nfalll6       1.00000        0.00000            1
+ nfallr6      nfallr6       1.00000        0.00000            1
+ krb06        krb06         1.00000        0.00000            1
+ krb26        krb26         1.00000        0.00000            1
+ mnup         mnup          1.00000        0.00000            1
+ kdcmoss      kdcmoss       1.00000        0.00000            1
+ kdcrawc      kdcrawc       1.00000        0.00000            1
+ kdcsoma      kdcsoma       1.00000        0.00000            1
+ kdcsompr     kdcsompr      1.00000        0.00000            1
+ kdcsomcr     kdcsomcr      1.00000        0.00000            1
+ imossc       imossc        1.00000        0.00000            1
+ ishlwc       ishlwc        1.00000        0.00000            1
+ ideepc       ideepc        1.00000        0.00000            1
+ iminec       iminec        1.00000        0.00000            1
+ isoln        isoln         1.00000        0.00000            1
+ iavln        iavln         1.00000        0.00000            1
+
+
+ Prior information:-
+
+    No prior information supplied
+
+
+ Observations:-
+
+ Observation name        Observation       Weight       Group
+  carbondeep              8.07497          1.000       obsgroup    
+  carbonshallow           8.17826          1.000       obsgroup    
+  carbonminsum            10.0822          1.000       obsgroup    
+  organicnsum             7.65982          1.000       obsgroup    
+  availablensum         -0.639321          1.000       obsgroup    
+  gppall3                 5.98691          1.000       obsgroup    
+  nppall3                 5.29376          1.000       obsgroup    
+  vegcl3                  4.93471          1.000       obsgroup    
+  vegcw3                  0.00000          1.000       obsgroup    
+  vegcr3                  5.49132          1.000       obsgroup    
+  vegcsum3                5.94440          1.000       obsgroup    
+  vegnl3                  1.70413          1.000       obsgroup    
+  vegnw3                  0.00000          1.000       obsgroup    
+  vegnr3                  1.63059          1.000       obsgroup    
+  vegnsum3                2.36118          1.000       obsgroup    
+  veglbln3               0.751745          1.000       obsgroup    
+  gppall4                 3.53111          1.000       obsgroup    
+  nppall4                 4.67421          1.000       obsgroup    
+  vegcl4                  3.16928          1.000       obsgroup    
+  vegcw4                  0.00000          1.000       obsgroup    
+  vegcr4                  5.03197          1.000       obsgroup    
+  vegcsum4                5.17629          1.000       obsgroup    
+  vegnl4                 0.536978          1.000       obsgroup    
+  vegnw4                  0.00000          1.000       obsgroup    
+  vegnr4                  1.17124          1.000       obsgroup    
+  vegnsum4                1.59672          1.000       obsgroup    
+  veglbln4              -1.271911E-02      1.000       obsgroup    
+  gppall5                 3.24491          1.000       obsgroup    
+  nppall5                 2.55177          1.000       obsgroup    
+  vegcl5                  2.55177          1.000       obsgroup    
+  vegcw5                  0.00000          1.000       obsgroup    
+  vegcr5                  0.00000          1.000       obsgroup    
+  vegcsum5                2.55177          1.000       obsgroup    
+  vegnl5                 -1.04355          1.000       obsgroup    
+  vegnw5                  0.00000          1.000       obsgroup    
+  vegnr5                  0.00000          1.000       obsgroup    
+  vegnsum5               -1.04355          1.000       obsgroup    
+  veglbln5               -2.65299          1.000       obsgroup    
+  gppall6                 3.53111          1.000       obsgroup    
+  nppall6                 2.83797          1.000       obsgroup    
+  vegcl6                  3.78268          1.000       obsgroup    
+  vegcw6                  0.00000          1.000       obsgroup    
+  vegcr6                  0.00000          1.000       obsgroup    
+  vegcsum6                3.78268          1.000       obsgroup    
+  vegnl6                 0.479661          1.000       obsgroup    
+  vegnw6                  0.00000          1.000       obsgroup    
+  vegnr6                  0.00000          1.000       obsgroup    
+  vegnsum6               0.479661          1.000       obsgroup    
+  veglbln6               -1.12978          1.000       obsgroup    
+
+
+ Control settings:-
+
+    Initial lambda                                               :  5.0000    
+    Lambda adjustment factor                                     :  2.0000    
+    Sufficient new/old phi ratio per optimisation iteration      : 0.30000    
+    Limiting relative phi reduction between lambdas              : 3.00000E-02
+    Maximum trial lambdas per iteration                          :  10
+    Forgive model run failure during lamda testing               : no
+    Forgive model run failure during Jacobian runs               : no
+
+    Perform Broyden's update of Jacobian matrix                  : no
+    Undertake observation re-referencing                         : no
+
+    Maximum  factor  parameter change (factor-limited changes)   :  3.0000
+    Maximum relative parameter change (relative-limited changes) :  3.0000
+    Fraction of initial parameter values used in computing
+    change limit for near-zero parameters                        : 1.00000E-03
+    Allow bending of parameter upgrade vector                    : no
+    Allow parameters to stick to their bounds                    : no
+
+    Relative phi reduction below which to begin use of
+    central derivatives                                          : 0.10000             
+    Iteration at which to first consider derivatives switch      :   1
+
+    Relative phi reduction indicating convergence                : 0.10000E-01
+    Number of phi values required within this range              :   3
+    Maximum number of consecutive failures to lower phi          :   3
+    Minimal relative parameter change indicating convergence     : 0.10000E-01
+    Number of consecutive iterations with minimal param change   :   3
+    Maximum number of optimisation iterations                    :  30
+
+    Attempt automatic user intervention                          : no
+
+    Attempt reuse of parameter sensitivities                     : no
+
+    Scale parameters by their bounds                             : no
+
+
+ File saving options: -
+
+    Save best JCO file                                           : yes
+    Save multiple JCO files                                      : no
+    Save multiple REI files                                      : no
+    Save multiple PAR files                                      : no
+
+
+                             OPTIMISATION RECORD
+
+
+ INITIAL CONDITIONS: 
+    Sum of squared weighted residuals (ie phi) =   111.96    
+
+       Current parameter values
+       cmax3            150.600    
+       nmax3            6.50000    
+       cfalll3         8.300000E-02
+       cfallr3         8.300000E-02
+       nfalll3         2.500000E-02
+       nfallr3         2.150000E-02
+       krb03           -3.00000    
+       krb23           -2.10000    
+       cmax4            50.4000    
+       nmax4            2.60000    
+       cfalll4         8.300000E-02
+       cfallr4         5.100000E-02
+       nfalll4         2.300000E-02
+       nfallr4         1.500000E-02
+       krb04           -2.10000    
+       krb24           -2.10000    
+       cmax5            90.1000    
+       nmax5            3.00000    
+       cfalll5         9.000000E-03
+       cfallr5          0.00000    
+       nfalll5         2.000000E-03
+       nfallr5          0.00000    
+       krb05           -2.50000    
+       krb25            0.00000    
+       cmax6            70.7000    
+       nmax6            2.10000    
+       cfalll6         1.100000E-02
+       cfallr6          0.00000    
+       nfalll6         2.000000E-03
+       nfallr6          0.00000    
+       krb06           -3.50000    
+       krb26            0.00000    
+       mnup             8.65000    
+       kdcmoss         9.000000E-03
+       kdcrawc         7.000000E-02
+       kdcsoma         9.700000E-03
+       kdcsompr        1.000000E-03
+       kdcsomcr        8.000000E-05
+       imossc          0.100000    
+       ishlwc           10000.0    
+       ideepc           20000.0    
+       iminec           24000.0    
+       isoln            2220.20    
+       iavln            1.71000    
+
+
+ OPTIMISATION ITERATION NO.        : 1
+    Model calls so far             : 1
+    Starting phi for this iteration:   111.96    
+
+    Parameter "krb23" has no effect on observations.
+    Parameter "krb04" has no effect on observations.
+    Parameter "krb24" has no effect on observations.
+    Parameter "nmax5" has no effect on observations.
+    Parameter "krb05" has no effect on observations.
+    Parameter "nmax6" has no effect on observations.
+    Parameter "iavln" has no effect on observations.
+
+        Lambda =   5.0000     ----->
+           Phi =   2139.0      ( 19.104 times starting phi)
+
+        Lambda =   2.5000     ----->
+           Phi =   112.63      (  1.006 times starting phi)
+
+        Lambda =   1.2500     ----->
+           Phi =   112.26      (  1.003 times starting phi)
+
+    No more lambdas: relative phi reduction between lambdas less than 0.0300
+    Lowest phi this iteration:   112.26    
+    Relative phi reduction between optimisation iterations less than 0.1000
+    Switch to central derivatives calculation
+    (restart from best parameters so far - these achieved at iteration    0)
+
+       Current parameter values
+       cmax3            150.600    
+       nmax3            6.50000    
+       cfalll3         8.300000E-02
+       cfallr3         8.300000E-02
+       nfalll3         2.500000E-02
+       nfallr3         2.150000E-02
+       krb03           -3.00000    
+       krb23           -2.10000    
+       cmax4            50.4000    
+       nmax4            2.60000    
+       cfalll4         8.300000E-02
+       cfallr4         5.100000E-02
+       nfalll4         2.300000E-02
+       nfallr4         1.500000E-02
+       krb04           -2.10000    
+       krb24           -2.10000    
+       cmax5            90.1000    
+       nmax5            3.00000    
+       cfalll5         9.000000E-03
+       cfallr5          0.00000    
+       nfalll5         2.000000E-03
+       nfallr5          0.00000    
+       krb05           -2.50000    
+       krb25            0.00000    
+       cmax6            70.7000    
+       nmax6            2.10000    
+       cfalll6         1.100000E-02
+       cfallr6          0.00000    
+       nfalll6         2.000000E-03
+       nfallr6          0.00000    
+       krb06           -3.50000    
+       krb26            0.00000    
+       mnup             8.65000    
+       kdcmoss         9.000000E-03
+       kdcrawc         7.000000E-02
+       kdcsoma         9.700000E-03
+       kdcsompr        1.000000E-03
+       kdcsomcr        8.000000E-05
+       imossc          0.100000    
+       ishlwc           10000.0    
+       ideepc           20000.0    
+       iminec           24000.0    
+       isoln            2220.20    
+       iavln            1.71000    
+
+
+ OPTIMISATION ITERATION NO.        : 2
+    Model calls so far             : 42
+    Starting phi for this iteration:   111.96    
+
+    Parameter "nmax5" has no effect on observations.
+    Parameter "krb05" has no effect on observations.
+    Parameter "iavln" has no effect on observations.
+
+        Lambda =   5.0000     ----->
+           Phi =   230.56      (  2.059 times starting phi)
+
+        Lambda =   2.5000     ----->
+           Phi =   230.56      (  2.059 times starting phi)
+
+    No more lambdas: relative phi reduction between lambdas less than 0.0300
+    Lowest phi this iteration:   230.56    
+
+       Current parameter values                 Previous parameter values
+       cmax3            151.754                 cmax3             150.600    
+       nmax3            6.81345                 nmax3             6.50000    
+       cfalll3         8.333300E-02             cfalll3          8.300000E-02
+       cfallr3         8.071195E-02             cfallr3          8.300000E-02
+       nfalll3         2.249136E-02             nfalll3          2.500000E-02
+       nfallr3         2.151800E-02             nfallr3          2.150000E-02
+       krb03           -3.01557                 krb03            -3.00000    
+       krb23           -2.10000                 krb23            -2.10000    
+       cmax4            57.9122                 cmax4             50.4000    
+       nmax4            3.59372                 nmax4             2.60000    
+       cfalll4         8.333300E-02             cfalll4          8.300000E-02
+       cfallr4         5.848553E-02             cfallr4          5.100000E-02
+       nfalll4         2.320129E-02             nfalll4          2.300000E-02
+       nfallr4         1.544695E-02             nfallr4          1.500000E-02
+       krb04           -2.10000                 krb04            -2.10000    
+       krb24           -2.10000                 krb24            -2.10000    
+       cmax5            69.1676                 cmax5             90.1000    
+       nmax5            3.00000                 nmax5             3.00000    
+       cfalll5         1.010605E-02             cfalll5          9.000000E-03
+       cfallr5          0.00000                 cfallr5           0.00000    
+       nfalll5         2.004651E-03             nfalll5          2.000000E-03
+       nfallr5          0.00000                 nfallr5           0.00000    
+       krb05           -2.50000                 krb05            -2.50000    
+       krb25            0.00000                 krb25             0.00000    
+       cmax6            92.0487                 cmax6             70.7000    
+       nmax6            2.10000                 nmax6             2.10000    
+       cfalll6         1.210245E-02             cfalll6          1.100000E-02
+       cfallr6          0.00000                 cfallr6           0.00000    
+       nfalll6         1.730948E-03             nfalll6          2.000000E-03
+       nfallr6          0.00000                 nfallr6           0.00000    
+       krb06           -3.52399                 krb06            -3.50000    
+       krb26            0.00000                 krb26             0.00000    
+       mnup             8.79357                 mnup              8.65000    
+       kdcmoss         9.119113E-03             kdcmoss          9.000000E-03
+       kdcrawc         7.488713E-02             kdcrawc          7.000000E-02
+       kdcsoma         1.020506E-02             kdcsoma          9.700000E-03
+       kdcsompr        9.521750E-04             kdcsompr         1.000000E-03
+       kdcsomcr        8.308220E-05             kdcsomcr         8.000000E-05
+       imossc          0.152257                 imossc           0.100000    
+       ishlwc           10602.3                 ishlwc            10000.0    
+       ideepc           17143.3                 ideepc            20000.0    
+       iminec           22672.5                 iminec            24000.0    
+       isoln            2584.69                 isoln             2220.20    
+       iavln            1.71000                 iavln             1.71000    
+    Maximum   factor change (  factor-limited params):  1.382     ["nmax4"]
+    Maximum relative change (relative-limited params): 0.5226     ["imossc"]
+    Maximum relative change (      all        params): 0.5226     ["imossc"]
+
+
+ OPTIMISATION ITERATION NO.        : 3
+    Model calls so far             : 120
+    Starting phi for this iteration:   230.56    
+
+    Parameter "nmax5" has no effect on observations.
+    Parameter "iavln" has no effect on observations.
+        param "cfalll3" frozen: - update vector out of bounds
+
+        Lambda =   2.5000     ----->
+           Phi =   202.80      (  0.880 of starting phi)
+
+        Lambda =   1.2500     ----->
+           Phi =   202.80      (  0.880 of starting phi)
+
+    No more lambdas: relative phi reduction between lambdas less than 0.0300
+    Lowest phi this iteration:   202.80    
+
+       Current parameter values                 Previous parameter values
+       cmax3            152.122                 cmax3             151.754    
+       nmax3            7.03916                 nmax3             6.81345    
+       cfalll3         8.333300E-02             cfalll3          8.333300E-02
+       cfallr3         7.885672E-02             cfallr3          8.071195E-02
+       nfalll3         2.263295E-02             nfalll3          2.249136E-02
+       nfallr3         2.225407E-02             nfallr3          2.151800E-02
+       krb03           -3.01479                 krb03            -3.01557    
+       krb23           -2.10000                 krb23            -2.10000    
+       cmax4            57.6571                 cmax4             57.9122    
+       nmax4            3.59118                 nmax4             3.59372    
+       cfalll4         8.313040E-02             cfalll4          8.333300E-02
+       cfallr4         5.874210E-02             cfallr4          5.848553E-02
+       nfalll4         2.321194E-02             nfalll4          2.320129E-02
+       nfallr4         1.496022E-02             nfallr4          1.544695E-02
+       krb04           -2.10000                 krb04            -2.10000    
+       krb24           -2.10000                 krb24            -2.10000    
+       cmax5            67.9277                 cmax5             69.1676    
+       nmax5            3.00000                 nmax5             3.00000    
+       cfalll5         1.040986E-02             cfalll5          1.010605E-02
+       cfallr5          0.00000                 cfallr5           0.00000    
+       nfalll5         2.049074E-03             nfalll5          2.004651E-03
+       nfallr5          0.00000                 nfallr5           0.00000    
+       krb05           -2.50540                 krb05            -2.50000    
+       krb25            0.00000                 krb25             0.00000    
+       cmax6            93.6042                 cmax6             92.0487    
+       nmax6            2.10000                 nmax6             2.10000    
+       cfalll6         1.201117E-02             cfalll6          1.210245E-02
+       cfallr6          0.00000                 cfallr6           0.00000    
+       nfalll6         1.708483E-03             nfalll6          1.730948E-03
+       nfallr6          0.00000                 nfallr6           0.00000    
+       krb06           -3.51997                 krb06            -3.52399    
+       krb26            0.00000                 krb26             0.00000    
+       mnup             8.79550                 mnup              8.79357    
+       kdcmoss         9.106725E-03             kdcmoss          9.119113E-03
+       kdcrawc         7.423929E-02             kdcrawc          7.488713E-02
+       kdcsoma         1.011931E-02             kdcsoma          1.020506E-02
+       kdcsompr        9.466660E-04             kdcsompr         9.521750E-04
+       kdcsomcr        8.500490E-05             kdcsomcr         8.308220E-05
+       imossc          0.149763                 imossc           0.152257    
+       ishlwc           10101.5                 ishlwc            10602.3    
+       ideepc           15786.7                 ideepc            17143.3    
+       iminec           22727.3                 iminec            22672.5    
+       isoln            2572.69                 isoln             2584.69    
+       iavln            1.71000                 iavln             1.71000    
+    Maximum   factor change (  factor-limited params):  1.086     ["ideepc"]
+    Maximum relative change (relative-limited params): 1.6384E-02 ["imossc"]
+    Maximum relative change (      all        params): 7.9135E-02 ["ideepc"]
+
+    Optimisation complete:   3 optimisation iterations have elapsed since lowest
+                           phi was achieved.
+    Total model calls:    198
+
+    The model has been run one final time using best parameters. 
+    Thus all model input files contain best parameter values, and model 
+    output files contain model results based on these parameters.
+
+
+                             OPTIMISATION RESULTS
+
+ Covariance matrix and parameter confidence intervals cannot be determined:-
+ Some form or regularisation was implemented so these are not applicable.
+
+
+ Parameters ----->
+
+ Parameter      Estimated value
+  cmax3           150.600    
+  nmax3           6.50000    
+  cfalll3        8.300000E-02
+  cfallr3        8.300000E-02
+  nfalll3        2.500000E-02
+  nfallr3        2.150000E-02
+  krb03          -3.00000    
+  krb23          -2.10000    
+  cmax4           50.4000    
+  nmax4           2.60000    
+  cfalll4        8.300000E-02
+  cfallr4        5.100000E-02
+  nfalll4        2.300000E-02
+  nfallr4        1.500000E-02
+  krb04          -2.10000    
+  krb24          -2.10000    
+  cmax5           90.1000    
+  nmax5           3.00000    
+  cfalll5        9.000000E-03
+  cfallr5         0.00000    
+  nfalll5        2.000000E-03
+  nfallr5         0.00000    
+  krb05          -2.50000    
+  krb25           0.00000    
+  cmax6           70.7000    
+  nmax6           2.10000    
+  cfalll6        1.100000E-02
+  cfallr6         0.00000    
+  nfalll6        2.000000E-03
+  nfallr6         0.00000    
+  krb06          -3.50000    
+  krb26           0.00000    
+  mnup            8.65000    
+  kdcmoss        9.000000E-03
+  kdcrawc        7.000000E-02
+  kdcsoma        9.700000E-03
+  kdcsompr       1.000000E-03
+  kdcsomcr       8.000000E-05
+  imossc         0.100000    
+  ishlwc          10000.0    
+  ideepc          20000.0    
+  iminec          24000.0    
+  isoln           2220.20    
+  iavln           1.71000    
+
+ See file /home/vijay/Desktop/pest/allparallpftlog/temlog.sen for parameter sensitivities.
+
+
+ Observations ----->
+
+ Observation            Measured       Calculated     Residual       Weight     Group
+                        value          value
+ carbondeep             8.07497        9.90002       -1.82505        1.000      obsgroup    
+ carbonshallow          8.17826        9.22611       -1.04785        1.000      obsgroup    
+ carbonminsum           10.0822        10.0827      -4.524142E-04    1.000      obsgroup    
+ organicnsum            7.65982        7.50688       0.152940        1.000      obsgroup    
+ availablensum        -0.639321       -2.39281        1.75349        1.000      obsgroup    
+ gppall3                5.98691        3.80871        2.17820        1.000      obsgroup    
+ nppall3                5.29376        3.27883        2.01493        1.000      obsgroup    
+ vegcl3                 4.93471        2.59390        2.34081        1.000      obsgroup    
+ vegcw3                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegcr3                 5.49132        2.59390        2.89742        1.000      obsgroup    
+ vegcsum3               5.94440        3.28705        2.65735        1.000      obsgroup    
+ vegnl3                 1.70413      -0.509787        2.21392        1.000      obsgroup    
+ vegnw3                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegnr3                 1.63059      -0.509787        2.14038        1.000      obsgroup    
+ vegnsum3               2.36118       0.183360        2.17782        1.000      obsgroup    
+ veglbln3              0.751745       -1.25932        2.01107        1.000      obsgroup    
+ gppall4                3.53111        2.98879       0.542321        1.000      obsgroup    
+ nppall4                4.67421        2.38350        2.29071        1.000      obsgroup    
+ vegcl4                 3.16928        1.67374        1.49554        1.000      obsgroup    
+ vegcw4                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegcr4                 5.03197        2.14722        2.88475        1.000      obsgroup    
+ vegcsum4               5.17629        2.63139        2.54490        1.000      obsgroup    
+ vegnl4                0.536978       -1.56729        2.10427        1.000      obsgroup    
+ vegnw4                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegnr4                 1.17124       -1.12766        2.29890        1.000      obsgroup    
+ vegnsum4               1.59672      -0.630358        2.22708        1.000      obsgroup    
+ veglbln4             -1.271911E-02   -2.01863        2.00591        1.000      obsgroup    
+ gppall5                3.24491        3.76437      -0.519464        1.000      obsgroup    
+ nppall5                2.55177        2.25522       0.296554        1.000      obsgroup    
+ vegcl5                 2.55177        4.48072       -1.92895        1.000      obsgroup    
+ vegcw5                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegcr5                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegcsum5               2.55177        4.48072       -1.92895        1.000      obsgroup    
+ vegnl5                -1.04355       0.358921       -1.40247        1.000      obsgroup    
+ vegnw5                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegnr5                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegnsum5              -1.04355       0.358921       -1.40247        1.000      obsgroup    
+ veglbln5              -2.65299       -1.17692       -1.47607        1.000      obsgroup    
+ gppall6                3.53111        3.55209      -2.098117E-02    1.000      obsgroup    
+ nppall6                2.83797        2.48474       0.353232        1.000      obsgroup    
+ vegcl6                 3.78268        4.50945      -0.726769        1.000      obsgroup    
+ vegcw6                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegcr6                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegcsum6               3.78268        4.50945      -0.726769        1.000      obsgroup    
+ vegnl6                0.479661       0.309994       0.169667        1.000      obsgroup    
+ vegnw6                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegnr6                 0.00000        0.00000        0.00000        1.000      obsgroup    
+ vegnsum6              0.479661       0.309994       0.169667        1.000      obsgroup    
+ veglbln6              -1.12978       -1.18974       5.995822E-02    1.000      obsgroup    
+
+ See file /home/vijay/Desktop/pest/allparallpftlog/temlog.res for more details of residuals in graph-ready format.
+
+ See file /home/vijay/Desktop/pest/allparallpftlog/temlog.seo for composite observation sensitivities.
+
+
+ Objective function ----->
+
+   Sum of squared weighted residuals (ie phi)                =   112.0    
+
+
+ Correlation Coefficient ----->
+
+   Correlation coefficient                                   =  0.88306    
+
+
+ Analysis of residuals ----->
+
+   All residuals:-
+      Number of residuals with non-zero weight                       =    49
+      Mean value of non-zero weighted residuals                      =  0.5913    
+      Maximum weighted residual [observation "vegcr3"]               =   2.897    
+      Minimum weighted residual [observation "vegcl5"]               =  -1.929    
+      Standard variance of weighted residuals                        =   10.18    
+      Standard error of weighted residuals                           =   3.190    
+
+      Note: the above variance was obtained by dividing the objective 
+      function by the number of system degrees of freedom (ie. number of 
+      observations with non-zero weight plus number of prior information 
+      articles with non-zero weight minus the number of adjustable parameters.)
+      If the degrees of freedom is negative the divisor becomes 
+      the number of observations with non-zero weight plus the number of 
+      prior information items with non-zero weight.
+
+
+ Covariance and other statistical matrices cannot be determined:-
+ Some form or regularisation was implemented so these are not applicable.
+
